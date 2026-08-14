@@ -1,0 +1,45 @@
+{
+  "schema": "zh-noether-portable-rebuild-test/1",
+  "state": "PASS_MACHINE_VALIDATED",
+  "tested_on": "2026-08-14",
+  "entry_point": {
+    "path": "source/make_reader.py",
+    "bytes": 28691,
+    "sha256": "7B637848F3663E8E10BC26F05B279E03713717D9E5A0209B18C0E9E5A2BDC04C"
+  },
+  "instructions": {
+    "path": "source/BUILD.md",
+    "bytes": 2485,
+    "sha256": "BEDFA60C25C9277C27B5C1196B4F3A945B035126514F958DD5D3ACF7D2122E14"
+  },
+  "test_receipt": {
+    "bytes": 24840,
+    "sha256": "6168046C1D674E26CCECB1B6ECE8ED31D7B570B8E663DF777C3FE2A076681642"
+  },
+  "output": {
+    "pages": 425,
+    "bytes": 3076388,
+    "sha256": "EB08BED1EBD5749EDE69EF5C945796C5C37733A1DD063AFF3C30C5B5D841027F"
+  },
+  "gates": {
+    "body_xelatex_pass_2_equals_pass_3": true,
+    "cmap_fix_two_runs_byte_identical": true,
+    "merge_two_runs_byte_identical": true,
+    "body_content_streams_preserved": "424/424",
+    "body_geometry_preserved": "424/424",
+    "body_annotations_preserved": 760,
+    "named_destinations_preserved_and_shifted": 2102,
+    "fonts_with_tounicode": "all",
+    "poppler_disallowed_c0_ufffd_nul": [0, 0, 0],
+    "pypdf_disallowed_c0_ufffd_nul": [0, 0, 0],
+    "representative_pages_rendered": [1, 2, 425],
+    "representative_visual_result": "PASS"
+  },
+  "toolchain": {
+    "python": "3.13.9",
+    "pypdf": "6.12.2",
+    "xelatex": "MiKTeX-XeTeX 4.18 (MiKTeX 26.5)",
+    "poppler": "24.04.0"
+  },
+  "claim_boundary": "This proves the bundled public builder completed successfully with the pinned inputs and recorded toolchain. The archival v1.0.0 release PDF remains the hash-pinned publication artifact. No external, community, or human certification is claimed."
+}

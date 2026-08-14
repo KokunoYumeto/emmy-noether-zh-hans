@@ -1,0 +1,26 @@
+archive	path_pattern	material	terms	note
+PUBLIC	reader/*.pdf	Chinese edition and typesetting with embedded Noto subsets	CC0-1.0 + OFL-1.1	Edition content is CC0-1.0; embedded Noto font software remains OFL-1.1.
+SOURCE	README.md	Project documentation	CC0-1.0	Project-created documentation.
+SOURCE	CITATION.cff	Citation metadata	CC0-1.0	Project-created metadata.
+SOURCE	LICENSE	Rights statement	CC0-1.0	Project-created statement; constituent terms remain as stated within it.
+SOURCE	VERSION	Version metadata	CC0-1.0	Project-created metadata.
+SOURCE	CHANGELOG.md	Release history	CC0-1.0	Project-created documentation.
+SOURCE	.zenodo.json	Deposit metadata	CC0-1.0	Project-created metadata.
+SOURCE	.gitattributes	Repository configuration	CC0-1.0	Project-created configuration.
+SOURCE	CONTENTS.tsv	Archive manifest	CC0-1.0	Project-created manifest.
+SOURCE	source/reader.tex	Chinese translation and typesetting	CC0-1.0	Project-created edition of public-domain historical works.
+SOURCE	source/cover.tex	DOI cover source	CC0-1.0	Project-created typesetting.
+SOURCE	source/make_reader.py	Portable build tool	CC0-1.0	Project-created software.
+SOURCE	source/BUILD.md	Build documentation	CC0-1.0	Project-created documentation.
+SOURCE	source/fonts/*	Bundled Noto font software	OFL-1.1	The complete SIL Open Font License 1.1 is source/fonts/OFL.txt.
+SOURCE	source/map/*	TeX Unicode mapping data	Upstream TeX distribution terms	Redistributed for deterministic extraction repair; no relicensing claim is made.
+SOURCE	evidence/*	Project-created source, coverage, QA, relation, rights, and rebuild metadata	CC0-1.0	Any quoted third-party text retains its stated rights.
+EVIDENCE	publication/*	Project-created publication evidence	CC0-1.0	Any quoted third-party text retains its stated rights.
+EVIDENCE	producer/*	Project-created frozen-producer evidence	CC0-1.0	Hash-pinned lineage and machine-validation records.
+EVIDENCE	authority/ED0011.tex	Transcription of historical Emmy Noether works	Public domain	Original historical works are public-domain source material; transcription provenance is retained.
+EVIDENCE	authority/BUILD.json	German authority build receipt	CC0-1.0	Project-created machine evidence.
+EVIDENCE	method/*	Publication-method controls	CC0-1.0	Project-created methodology.
+EVIDENCE	control/*	Release-control record	CC0-1.0	Project-created control evidence preserving direct user authority.
+EVIDENCE	doi/*	DOI and repository reservation receipts	CC0-1.0	Project-created API receipts with credentials excluded.
+EVIDENCE	SECRET_SCAN.json	Credential-exclusion receipt	CC0-1.0	Project-created machine evidence.
+EVIDENCE	CONTENTS.tsv	Archive manifest	CC0-1.0	Project-created manifest.

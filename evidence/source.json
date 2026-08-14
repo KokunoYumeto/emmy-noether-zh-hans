@@ -22,6 +22,14 @@
     "body_pages": 424,
     "manifest_sha256": "7B8F8B1A4D399EF34AF618CA7609F44A9A745FECB6CB3D346B570B4FFB479EEC"
   },
+  "component_mapping": {
+    "path": "evidence/coverage.tsv",
+    "rows": 48,
+    "source_partition": "ED0011 logical lines 1-24146, contiguous and exact",
+    "target_partition": "source/reader.tex LF lines 1-25085, contiguous and exact",
+    "coverage_sha256": "AECD7F5825E945B7DAC689AB7075054FC71C0D6F4B5A969B6EE7875A80E17459",
+    "method": "Each source component and its nonempty Chinese component span have explicit line ranges, UTF-8 byte counts, SHA-256 values, and embedded target anchors."
+  },
   "shared_source_mutated_by_language_release": false,
   "scope_exclusions": ["zh-Hans-SG", "controlled Traditional Chinese", "Taiwan localization", "Hong Kong localization", "Macao localization", "SGA"]
 }
