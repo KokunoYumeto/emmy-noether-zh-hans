@@ -1,0 +1,97 @@
+{
+  "schema": "zh-noether-publication-build/1",
+  "source_date_epoch": 1786701600,
+  "python": "Python 3.13.9",
+  "pypdf": "6.12.2",
+  "xelatex": "MiKTeX-XeTeX 4.18 (MiKTeX 26.5)",
+  "cover_passes": [
+    {
+      "pass": 1,
+      "pdf_bytes": 66372,
+      "pdf_sha256": "706B0A43AE8779BD3C2B275CDEA220AE7BF039B8F7B2E945AF0AE232657874E3"
+    },
+    {
+      "pass": 2,
+      "pdf_bytes": 66372,
+      "pdf_sha256": "706B0A43AE8779BD3C2B275CDEA220AE7BF039B8F7B2E945AF0AE232657874E3"
+    },
+    {
+      "pass": 3,
+      "pdf_bytes": 66372,
+      "pdf_sha256": "706B0A43AE8779BD3C2B275CDEA220AE7BF039B8F7B2E945AF0AE232657874E3"
+    }
+  ],
+  "body": {
+    "bytes": 3129044,
+    "sha256": "0C457AB0C5F31BE1F6C8B5A4EC7ACB657ABE67979D5E9339BA493B599BC2D544",
+    "pages": 424
+  },
+  "reader": {
+    "path": "reader/00_NOETHER_zh-Hans_COMPLETE_READER.pdf",
+    "bytes": 3169126,
+    "sha256": "0B6D9B78874325DE2C82C15FB07C6FE61DDB1A428E5F995A2F75D40961AA9079",
+    "pages": 425
+  },
+  "body_content_streams_equal": "424/424",
+  "body_mediabox_cropbox_equal": "424/424",
+  "annotations": {
+    "cover": 4,
+    "body": 760,
+    "reader": 764
+  },
+  "body_annotation_page_counts_equal": "424/424",
+  "cover_uris": [
+    "https://doi.org/10.5281/zenodo.20412587",
+    "https://doi.org/10.5281/zenodo.21933034",
+    "https://doi.org/10.5281/zenodo.21933035",
+    "https://github.com/KokunoYumeto/emmy-noether-zh-hans"
+  ],
+  "named_destinations": {
+    "body": 2102,
+    "reader": 2102,
+    "shifted_by_one_page": 2102
+  },
+  "outlines": {
+    "body": 6,
+    "reader": 6
+  },
+  "metadata": {
+    "title": "埃米·诺特数学著作全集——完整简体中文版",
+    "author": "Emmy Noether; Manuscript Typesetting Project; OpenAI Codex",
+    "subject": "Complete PRC-oriented Simplified-Chinese corpus edition, version 1.0.0"
+  },
+  "extraction": {
+    "poppler": {
+      "disallowed_c0": 0,
+      "replacement_characters": 0,
+      "nul": 0
+    },
+    "pypdf": {
+      "disallowed_c0": 0,
+      "replacement_characters": 0,
+      "nul": 0
+    }
+  },
+  "rendered_pages": [
+    {
+      "page": 1,
+      "path": "evidence/visual/cover.png",
+      "bytes": 360419,
+      "sha256": "B282A065B57D8397189AEC566B287038F427BF716AD9BEC72E869AD2852FA6F3"
+    },
+    {
+      "page": 2,
+      "path": "evidence/visual/body-first.png",
+      "bytes": 625875,
+      "sha256": "D4E125A8A917B4274F2703BC216018BA62E5F3C27FFBB48BE8D54A2246D8D975"
+    },
+    {
+      "page": 425,
+      "path": "evidence/visual/body-last.png",
+      "bytes": 107752,
+      "sha256": "D1B72D2D07F32C2AF1C99C1978D18593879E17739580E2B9F61E72BE77080A36"
+    }
+  ],
+  "two_merge_runs_byte_identical": true,
+  "merge_run_sha256": "0B6D9B78874325DE2C82C15FB07C6FE61DDB1A428E5F995A2F75D40961AA9079"
+}

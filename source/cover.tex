@@ -1,0 +1,79 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1.75cm]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\setmainfont[Path=fonts/,BoldFont=NotoSerifCJKsc-Bold.otf]{NotoSerifCJKsc-Regular.otf}
+\setsansfont[Path=fonts/,BoldFont=NotoSansCJKsc-Bold.otf]{NotoSansCJKsc-Regular.otf}
+\setCJKmainfont[Path=fonts/,BoldFont=NotoSerifCJKsc-Bold.otf]{NotoSerifCJKsc-Regular.otf}
+\setCJKsansfont[Path=fonts/,BoldFont=NotoSansCJKsc-Bold.otf]{NotoSansCJKsc-Regular.otf}
+\definecolor{navy}{HTML}{123A56}
+\definecolor{gold}{HTML}{B38A37}
+\definecolor{ink}{HTML}{33424D}
+\definecolor{pale}{HTML}{F2F6F8}
+\hypersetup{
+  unicode=true,
+  colorlinks=true,
+  urlcolor=navy,
+  pdftitle={埃米·诺特数学著作全集——完整简体中文版},
+  pdfauthor={Emmy Noether; Manuscript Typesetting Project; OpenAI Codex},
+  pdfsubject={Complete PRC-oriented Simplified-Chinese corpus edition, version 1.0.0},
+  pdfkeywords={Emmy Noether, Simplified Chinese, translation, mathematics, algebra}
+}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\begin{document}
+\thispagestyle{empty}
+
+\colorbox{navy}{%
+  \parbox[c][3.0cm][c]{\dimexpr\textwidth-2\fboxsep\relax}{%
+    \color{white}\sffamily\bfseries\fontsize{22}{28}\selectfont
+    埃米·诺特数学著作全集\par
+    \vspace{0.35em}\fontsize{13}{18}\selectfont 完整简体中文版 · 版本 1.0.0
+  }%
+}
+\color{gold}\rule{\textwidth}{5pt}
+
+\vspace{1.2cm}
+{\sffamily\bfseries\color{navy}\fontsize{15}{20}\selectfont
+Emmy Noether: Complete Simplified Chinese Corpus Edition}\par
+
+\vspace{0.7cm}
+\color{ink}
+\begin{tabular}{@{}p{3.3cm}p{11.4cm}@{}}
+原著者 & Emmy Noether（埃米·诺特）\\[0.28em]
+翻译与排版 & Manuscript Typesetting Project / OpenAI Codex\\[0.28em]
+语言 & 面向中国大陆的简体中文（BCP 47: \texttt{zh-Hans-CN}; Zenodo: \texttt{zho}）\\[0.28em]
+固定范围 & 43 篇编号论文、两项编号论文之后单独标识的著作/范围，以及末尾书目和版本附录\\[0.28em]
+德文权威 & \texttt{NOETH-DE-AUTH-v047-20260808 / ED0011}；逻辑行 1--24,146\\[0.28em]
+正文身份 & 冻结 \texttt{zh\_r10b}；424 页；SHA-256 \texttt{0C457AB0...C2D544}\\
+\end{tabular}
+
+\vspace{0.8cm}
+\colorbox{pale}{%
+  \parbox{\dimexpr\textwidth-2\fboxsep\relax}{%
+    \vspace{0.35em}
+    {\sffamily\bfseries\color{navy}永久标识与公开位置}\par\vspace{0.4em}
+    简体中文版 Concept DOI：\href{https://doi.org/10.5281/zenodo.21933034}{\texttt{10.5281/zenodo.21933034}}\\[0.22em]
+    本版 DOI：\href{https://doi.org/10.5281/zenodo.21933035}{\texttt{10.5281/zenodo.21933035}}\\[0.22em]
+    多语种总目录与德文来源：\href{https://doi.org/10.5281/zenodo.20412587}{\texttt{10.5281/zenodo.20412587}}\\[0.22em]
+    GitHub：\href{https://github.com/KokunoYumeto/emmy-noether-zh-hans}{\texttt{KokunoYumeto/emmy-noether-zh-hans}}
+    \vspace{0.35em}
+  }%
+}
+
+\vspace{0.85cm}
+{\sffamily\bfseries\color{navy}版本状态}\par\vspace{0.35em}
+本公开读本由本页及其后的 424 页冻结正文组成。正文已经完成谱系复现、连续来源范围核对、三次串行 XeLaTeX 构建、确定性 ToUnicode CMap 注入、Poppler 与 pypdf 双重提取检查、逐页渲染比较和全页视觉覆盖。源文件、范围矩阵、变更记录、构建和渲染证据及精确哈希随本版公开。
+
+\vspace{0.45cm}
+“完整”仅指所声明的固定语料范围全部纳入；不表示校勘定本、绝对无误或经外部认证。本版不主张新加坡简体中文、受控繁体中文、台湾、香港或澳门本地化，也不声称外部、社群或人工认证。
+
+\vfill
+\color{gold}\rule{\textwidth}{0.8pt}\par
+\vspace{0.25cm}
+{\small\color{ink}独立简体中文版本 · 2026-08-14 · CC0 1.0（字体另依 SIL OFL 1.1）\hfill 正文 424 页 + 本说明页 1 页}
+
+\end{document}

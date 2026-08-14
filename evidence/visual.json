@@ -1,0 +1,42 @@
+{
+  "schema": "zh-noether-publication-visual/1",
+  "inspected_at": "2026-08-14T13:00–13:07+02:00 (bounded local interval; no external timestamp)",
+  "renderer": "Poppler pdftoppm at 180 DPI",
+  "reader_sha256": "0B6D9B78874325DE2C82C15FB07C6FE61DDB1A428E5F995A2F75D40961AA9079",
+  "pages": [
+    {
+      "page": 1,
+      "role": "new DOI cover",
+      "render": "visual/cover.png",
+      "render_sha256": "B282A065B57D8397189AEC566B287038F427BF716AD9BEC72E869AD2852FA6F3",
+      "inspection": "PASS",
+      "observations": "Chinese and English titles, language/scope, authority, four identifiers, version state, exclusions, and footer are fully visible; typography is aligned; no clipping, overlap, missing glyph, mojibake, or broken link label is visible."
+    },
+    {
+      "page": 2,
+      "role": "first unchanged body page",
+      "render": "visual/body-first.png",
+      "render_sha256": "D4E125A8A917B4274F2703BC216018BA62E5F3C27FFBB48BE8D54A2246D8D975",
+      "inspection": "PASS",
+      "observations": "Title, Chinese prose, equations, footnotes, and page number are legible and unclipped; this page matches the already inspected frozen body through exact content-stream and geometry equality."
+    },
+    {
+      "page": 425,
+      "role": "last unchanged body page",
+      "render": "visual/body-last.png",
+      "render_sha256": "D1B72D2D07F32C2AF1C99C1978D18593879E17739580E2B9F61E72BE77080A36",
+      "inspection": "PASS",
+      "observations": "Terminal bibliography text, closing rule, imprint, dates, and body page number 424 are fully visible and unclipped."
+    }
+  ],
+  "body_inheritance": {
+    "body_pages": 424,
+    "body_content_streams_equal": "424/424",
+    "body_page_geometry_equal": "424/424",
+    "body_annotation_counts_equal": "424/424",
+    "body_named_destinations_shifted_by_one_cover_page": "2102/2102",
+    "prior_frozen_body_all_page_visual_coverage": "424/424"
+  },
+  "failures": 0,
+  "state": "PASS"
+}

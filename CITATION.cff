@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "引用本简体中文版时，请使用 preferred-citation。"
+title: "埃米·诺特数学著作全集——完整简体中文版的源文件与证据"
+type: software
+authors:
+  - name: "Manuscript Typesetting Project"
+repository-code: "https://github.com/KokunoYumeto/emmy-noether-zh-hans"
+version: "1.0.0"
+date-released: "2026-08-14"
+license: "CC0-1.0"
+preferred-citation:
+  type: book
+  title: "埃米·诺特数学著作全集——完整简体中文版 / Emmy Noether: Complete Simplified Chinese Corpus Edition"
+  authors:
+    - family-names: "Noether"
+      given-names: "Emmy"
+  translators:
+    - name: "Manuscript Typesetting Project / OpenAI Codex"
+  languages:
+    - "zho"
+  doi: "10.5281/zenodo.21933035"
+  version: "1.0.0"
+  year: "2026"
+  url: "https://doi.org/10.5281/zenodo.21933035"
+  collection-title: "Emmy Noether multilingual corpus"
+  collection-doi: "10.5281/zenodo.20412587"
+  abstract: "Complete PRC-oriented Simplified-Chinese cumulative edition: 43 numbered papers, two post-numbered works/scopes, and terminal bibliography/editorial apparatus."

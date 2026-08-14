@@ -1,0 +1,4 @@
+item_id	category	scope	status	description
+NONE	Simplified-Chinese content	v047/ED0011 fixed corpus	CLOSED	No known untranslated span or unresolved target-content defect remains in the declared PRC-oriented zh-Hans scope.
+SCOPE-HANT	excluded target	Traditional Chinese	OUT_OF_SCOPE	No controlled Hant or TW/HK/MO localized edition is claimed by this release.
+SCOPE-SG	excluded target	zh-Hans-SG	OUT_OF_SCOPE	No Singapore-localized Simplified-Chinese edition is claimed by this release.

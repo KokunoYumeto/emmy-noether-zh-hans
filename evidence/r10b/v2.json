@@ -1,0 +1,1070 @@
+{
+  "all_pass": true,
+  "checks": [
+    {
+      "id": "manifest_exists",
+      "pass": true
+    },
+    {
+      "id": "manifest_header",
+      "pass": true
+    },
+    {
+      "id": "manifest_nonempty",
+      "pass": true
+    },
+    {
+      "id": "manifest_sorted",
+      "pass": true
+    },
+    {
+      "id": "manifest_paths_safe",
+      "pass": true
+    },
+    {
+      "id": "manifest_unique",
+      "pass": true
+    },
+    {
+      "id": "manifest_excludes_self",
+      "pass": true
+    },
+    {
+      "id": "manifest_hash_shapes",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "actual": 58,
+        "listed": 58
+      },
+      "id": "member_set_exact",
+      "pass": true
+    },
+    {
+      "evidence": [],
+      "id": "no_reparse",
+      "pass": true
+    },
+    {
+      "id": "no_forbidden_dirs",
+      "pass": true
+    },
+    {
+      "evidence": [],
+      "id": "manifest_replay",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 1874053,
+        "sha256": "14240969926ED46CCD1D9F75BA7EA8A25652B28FF27F436030F46D74DCFBA00E"
+      },
+      "id": "local:base.tex",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 1874083,
+        "sha256": "553446A494A59530946AB70EC2F672BED4D45A33B7FA554765A11B8C038DA6D4"
+      },
+      "id": "local:reader.tex",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 2549851,
+        "sha256": "83940446386BA3A008F1D65C964E0923A4E60B511E165EAB651A5FB02433F1AD"
+      },
+      "id": "local:raw.pdf",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 3129044,
+        "sha256": "0C457AB0C5F31BE1F6C8B5A4EC7ACB657ABE67979D5E9339BA493B599BC2D544"
+      },
+      "id": "local:reader.pdf",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 1896159,
+        "sha256": "9A50D8B3FDD0F410812ED295A29D5D9736E38A7BACC2A242E109941D0B444143"
+      },
+      "id": "local:reader.txt",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 2368,
+        "sha256": "B0FC9A8DA681863FAE6F1AF01FACE4F7DB7EC5518AA468356C350640D929BCAC"
+      },
+      "id": "local:STATE.md",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 3942,
+        "sha256": "AD7C82F6EE4EAF73A8C77A920042D559C1EC11D76D3C5091300DFA6A9394D845"
+      },
+      "id": "local:delta.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 5501,
+        "sha256": "3C5A23D05FB603CF72721BF6279E2D9417E6CCDBC9B56E68E8D7742FBAA2FE81"
+      },
+      "id": "local:qa.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 3508,
+        "sha256": "149913288328915FD491C9D2B99AEBC0ACC91E5C3E23DCAE0422BD3D6B710184"
+      },
+      "id": "local:build.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 16219,
+        "sha256": "E790AC17D21E98B9042360CE8606C7EA3FB72D16AEFF75F7B5F11FC51052A831"
+      },
+      "id": "local:fix.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 10115,
+        "sha256": "8137C4489F41A80F8F67B43EDE64F407B98D8F6D2AC5940CF5E8C09B1B6D2068"
+      },
+      "id": "local:extract.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 124487,
+        "sha256": "1F3E3E8E11BDB5AA209063D74382D91CA60837F1DB16A7B024C25144D015EE42"
+      },
+      "id": "local:render.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 338293,
+        "sha256": "69013DEAB77E89347821AA3EC5B38976B2E90D0303426BC3C566605458A353DA"
+      },
+      "id": "local:compare.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 2545,
+        "sha256": "AAD726DFC00399B1079DAC5ACD1F54DE0A4BC5FD2B2DDC62B45B13E4273F0F85"
+      },
+      "id": "local:visual.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 4853,
+        "sha256": "3BE177A771301A02EDD2CF05FDAEC190D55867B50EA963D6152570D49AC17BB6"
+      },
+      "id": "local:return.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 1727,
+        "sha256": "D1029FB5902E12F18E422062026E4B2125085B2E3E1E31D6AE72F532DB7D07FB"
+      },
+      "id": "local:handoff.md",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 2035,
+        "sha256": "17A9C1899EA0C58472F112E052934B1CEA7D68DA667FA4BE1044947AF933828A"
+      },
+      "id": "local:agents.jsonl",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 4552,
+        "sha256": "0CED422BB110C16A6A38617047B47909E4323AD3FCB90592B6B1B3C65AC52825"
+      },
+      "id": "local:events.jsonl",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 5394,
+        "sha256": "B97E177263897A417986B76A1336778673AF81E09F04171D7B152FD7D309E3B2"
+      },
+      "id": "local:build.py",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 7545,
+        "sha256": "8E5B0B84F5C57CD032997239C88FF6F9BF233B562F565B2B0712E30CB13487B8"
+      },
+      "id": "local:compare.py",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 15103,
+        "sha256": "06476D0B8EA2670F7C3CC4D7C8EBC2163AF356916F5A71DAE6230342637EB518"
+      },
+      "id": "local:fix.py",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 3389,
+        "sha256": "47019FAEB73FAA9819E8CEEB9BF738F1B9C21B4F3C42753353A73928396CCF31"
+      },
+      "id": "local:fonts.txt",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 17002248,
+        "sha256": "B5F0D1A190A7F9B43C310A8850630AF12553DF32C4C050543F9059732D9B4C0A"
+      },
+      "id": "local:fonts/NotoSansCJKsc-Bold.otf",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 16437364,
+        "sha256": "2C76254F6FC379FDDFCE0A7E84FB5385BB135D3E399294F6EEB6680D0365B74B"
+      },
+      "id": "local:fonts/NotoSansCJKsc-Regular.otf",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 525664,
+        "sha256": "BEB857BD799A114DE7D5D90CC75CC69F4B6EE8D401F4AB20697E6F9719A66DFC"
+      },
+      "id": "local:fonts/NotoSansMono-Bold.ttf",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 512836,
+        "sha256": "D9E2B23D19F8230BE7146F409A52B1D23117E635E28F2E2892CF91B7382F325B"
+      },
+      "id": "local:fonts/NotoSansMono-Regular.ttf",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 25521460,
+        "sha256": "8AF07D4B6C2E82BCC72A30E066EAF295F11B9424F4AAD2EAA9FE0E9C3B38FC73"
+      },
+      "id": "local:fonts/NotoSerifCJKsc-Bold.otf",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 24543080,
+        "sha256": "2A2EAE2628DF83556C54018C41E20FA532C1B862C5256AE8B3F23FEB918D12CA"
+      },
+      "id": "local:fonts/NotoSerifCJKsc-Regular.otf",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 55449,
+        "sha256": "832D2B71BBA6E56B5E8BA169F18938C2A96802EA0FF3038F1A48C448570D73D2"
+      },
+      "id": "local:log/p1.log",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 13647,
+        "sha256": "D1CD5F0C6A13E5994EC63579FAD98F714830F329D08C493F1D1D3CA18ABB8FA7"
+      },
+      "id": "local:log/p1.txt",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 52510,
+        "sha256": "B8AA0F6FA9FE97A38FBE97EDF1DECB042C92F304A33EEFFC2A581673600CD342"
+      },
+      "id": "local:log/p2.log",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 10621,
+        "sha256": "0D9987C19657F37983ADA2B3240DE7415D1098D6F28CF23990C5A027E6FFA84A"
+      },
+      "id": "local:log/p2.txt",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 52510,
+        "sha256": "B8AA0F6FA9FE97A38FBE97EDF1DECB042C92F304A33EEFFC2A581673600CD342"
+      },
+      "id": "local:log/p3.log",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 10621,
+        "sha256": "0D9987C19657F37983ADA2B3240DE7415D1098D6F28CF23990C5A027E6FFA84A"
+      },
+      "id": "local:log/p3.txt",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 2370,
+        "sha256": "B0EA8E71B5D2E1DC86991867AF6B9547BE1BCC20EC7561D7C3BEDFA84204A999"
+      },
+      "id": "local:map/oms.cmap",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 3001,
+        "sha256": "C07DF4892D287A36825A0611A1E2BE0C9F120260F632E00E17D4E8C5973331F8"
+      },
+      "id": "local:map/omx.cmap",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 2450,
+        "sha256": "22266C6FAA697A7266CF244EFF2A64037FF762F90B5AD123D8744054D2B02F82"
+      },
+      "id": "local:map/umsb.cmap",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 8632,
+        "sha256": "28C97E0AD8997256A127C8ED4687FDB1B6631B27B407673734573C868074ABB1"
+      },
+      "id": "local:prep.py",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 3389,
+        "sha256": "A7E8823962E118A6EA1F051E8182645B56CB05965E4AF56324004108E9410D81"
+      },
+      "id": "local:rawfonts.txt",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 3592,
+        "sha256": "BD3C96101FA74B256798562F640142372E3EDFAC11B266ACF85764DC0B737622"
+      },
+      "id": "local:render.py",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 5792,
+        "sha256": "3687166CB003013B4836B7B45807A83F981AC345549411D8C066456B8328D38B"
+      },
+      "id": "local:scan.py",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 2446,
+        "sha256": "739B1D174033942CF37D96630B8050A7F7EE7673B73EC8DC84B1C8BE088B8AF5"
+      },
+      "id": "local:seal.py",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 1091,
+        "sha256": "2F3738E2AABD7B585D474F8767F112E3D9D23AAECF2B8D66D85551F18FF00F31"
+      },
+      "id": "local:src/ext.csv",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 3144,
+        "sha256": "7EC290D5DA0054625EAB7F3CC0E9753A1674E782B6B78330DA4C262F528372AE"
+      },
+      "id": "local:src/ext.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 3074,
+        "sha256": "6A48E98B660A308E164DDE821093AE640ED5F95AE466E9D39E8ED96472792887"
+      },
+      "id": "local:src/ext.md",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 1874053,
+        "sha256": "0CF0CDB22E66E00D01282BDAA33E5FEB65EDDE7DE2FE5000A1628D61F116F497"
+      },
+      "id": "local:src/cand.tex",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 2405,
+        "sha256": "C92399F4A9F73627239176ABBB0BD49146595E64D7F3625F7A15C7A970EE8066"
+      },
+      "id": "local:src/state0.md",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 6649,
+        "sha256": "4338E7695E92731F265CCDF523AD0A2B309EC7047922164072318C544E4E1323"
+      },
+      "id": "local:src/chk.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 182,
+        "sha256": "174A07464A344A1240C654E3A393643E263DDE079DB335344A714E6CAED6185D"
+      },
+      "id": "local:src/chk.csv",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 354,
+        "sha256": "05306EB89417404205688CC8A8B181137971C31A8C434304C4AC3D037C89271F"
+      },
+      "id": "local:src/chkv1.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 464,
+        "sha256": "CA53579988EC6C4B5A35B18C91FB8EA8C954DA574FF3AEED7F6EB3D79C432F36"
+      },
+      "id": "local:src/chkv2.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 797,
+        "sha256": "74B36CC24D722708C4C06134BA204813D36EBEBEAA8138504B4819AC719E78EF"
+      },
+      "id": "local:src/find.csv",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 4581,
+        "sha256": "F8647FE279273538F2E7702FB96CB633DDFA47CC59E856FBA6F272FC447EF371"
+      },
+      "id": "local:src/r10.csv",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 4424,
+        "sha256": "1DF6EA1DAD813C6C1AE42E96B0E557287AC562C405F0D30DA985B989690E060D"
+      },
+      "id": "local:src/r10ret.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 2380,
+        "sha256": "7A0C7EEE76597CB04761336D4D69CFF75B37715FB78A454B35056CC1F4D3F3B5"
+      },
+      "id": "local:src/r10frz.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 132270,
+        "sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA"
+      },
+      "id": "local:src/ptr.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 152755,
+        "sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE"
+      },
+      "id": "local:src/v051.json",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 1874053,
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.tex",
+        "sha256": "14240969926ED46CCD1D9F75BA7EA8A25652B28FF27F436030F46D74DCFBA00E"
+      },
+      "id": "external:frozen_r10_tex",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 3129035,
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.pdf",
+        "sha256": "41FE49CAA081E5A22A4F8E3CEACFA046BD14E799EE806D9661AC8C4F9CE2E1CE"
+      },
+      "id": "external:frozen_r10_pdf",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 4581,
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\manifest.csv",
+        "sha256": "F8647FE279273538F2E7702FB96CB633DDFA47CC59E856FBA6F272FC447EF371"
+      },
+      "id": "external:frozen_r10_manifest",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 6649,
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\05_independent_checking\\noether_chinese\\r10\\ret\\receipt.json",
+        "sha256": "4338E7695E92731F265CCDF523AD0A2B309EC7047922164072318C544E4E1323"
+      },
+      "id": "external:r10_checker_return",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 1152,
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\00_lane_control\\RELEASE_GATE_OVERRIDE_20260813.md",
+        "sha256": "8B07A31E2BE62859F3593488EB664743A02D5D7F218E371529CBE6CB0BB7C0A9"
+      },
+      "id": "external:release_override",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 132270,
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v047.json",
+        "sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA"
+      },
+      "id": "external:immutable_v047",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 152755,
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v051.json",
+        "sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE"
+      },
+      "id": "external:immutable_v051",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "bytes": 2153594,
+        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\candidates\\ED0011\\noether.tex",
+        "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3"
+      },
+      "id": "external:ED0011",
+      "pass": true
+    },
+    {
+      "evidence": [],
+      "id": "json_jsonl_parse",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "agents.jsonl": 3,
+        "events.jsonl": 8
+      },
+      "id": "agent_event_counts",
+      "pass": true
+    },
+    {
+      "id": "tex_line_counts",
+      "pass": true
+    },
+    {
+      "id": "tex_lf_only",
+      "pass": true
+    },
+    {
+      "id": "tex_tail_preserved",
+      "pass": true
+    },
+    {
+      "evidence": [
+        2,
+        5,
+        25
+      ],
+      "id": "exact_three_line_replay",
+      "pass": true
+    },
+    {
+      "id": "control_lines_exact",
+      "pass": true
+    },
+    {
+      "id": "exact_byte_reconstruction",
+      "pass": true
+    },
+    {
+      "id": "checker_candidate_tail_disclosed",
+      "pass": true
+    },
+    {
+      "id": "substantive_body_exact",
+      "pass": true
+    },
+    {
+      "id": "delta_id_state",
+      "pass": true
+    },
+    {
+      "id": "delta_scope",
+      "pass": true
+    },
+    {
+      "id": "delta_policy",
+      "pass": true
+    },
+    {
+      "id": "qa_pass",
+      "pass": true
+    },
+    {
+      "id": "qa_rows",
+      "pass": true
+    },
+    {
+      "id": "qa_delta_identity",
+      "pass": true
+    },
+    {
+      "id": "build_serial_three",
+      "pass": true
+    },
+    {
+      "id": "build_stable",
+      "pass": true
+    },
+    {
+      "id": "build_controls_stable",
+      "pass": true
+    },
+    {
+      "id": "build_signals_pages",
+      "pass": true
+    },
+    {
+      "id": "build_lineage",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "CMEX10": 224,
+        "CMEX7": 2,
+        "CMEX8": 43,
+        "CMSY10": 385,
+        "CMSY8": 299,
+        "MSBM10": 24
+      },
+      "id": "fix_fonts",
+      "pass": true
+    },
+    {
+      "id": "fix_invariants",
+      "pass": true
+    },
+    {
+      "id": "fix_tounicode_determinism",
+      "pass": true
+    },
+    {
+      "id": "fix_scope_lineage",
+      "pass": true
+    },
+    {
+      "id": "extract_gate",
+      "pass": true
+    },
+    {
+      "id": "extract_poppler",
+      "pass": true
+    },
+    {
+      "id": "extract_pypdf",
+      "pass": true
+    },
+    {
+      "id": "render_pass",
+      "pass": true
+    },
+    {
+      "id": "compare_pass",
+      "pass": true
+    },
+    {
+      "id": "compare_424",
+      "pass": true
+    },
+    {
+      "id": "compare_rows",
+      "pass": true
+    },
+    {
+      "id": "compare_metadata",
+      "pass": true
+    },
+    {
+      "id": "visual_pass",
+      "pass": true
+    },
+    {
+      "id": "return_state",
+      "pass": true
+    },
+    {
+      "id": "release_without_review_gate",
+      "pass": true
+    },
+    {
+      "id": "return_release_gate",
+      "pass": true
+    },
+    {
+      "id": "return_scope",
+      "pass": true
+    },
+    {
+      "id": "current_surfaces_release_ready",
+      "pass": true
+    },
+    {
+      "id": "no_current_blocking_gate",
+      "pass": true
+    },
+    {
+      "id": "claim_boundary",
+      "pass": true
+    },
+    {
+      "id": "pdf_pages",
+      "pass": true
+    },
+    {
+      "id": "pdf_metadata",
+      "pass": true
+    }
+  ],
+  "checks_passed": 120,
+  "checks_total": 120,
+  "disposition": "PASS_MACHINE_VALIDATED_RELEASE_READY",
+  "external_pins": {
+    "ED0011": {
+      "bytes": 2153594,
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\candidates\\ED0011\\noether.tex",
+      "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3"
+    },
+    "frozen_r10_manifest": {
+      "bytes": 4581,
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\manifest.csv",
+      "sha256": "F8647FE279273538F2E7702FB96CB633DDFA47CC59E856FBA6F272FC447EF371"
+    },
+    "frozen_r10_pdf": {
+      "bytes": 3129035,
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.pdf",
+      "sha256": "41FE49CAA081E5A22A4F8E3CEACFA046BD14E799EE806D9661AC8C4F9CE2E1CE"
+    },
+    "frozen_r10_tex": {
+      "bytes": 1874053,
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.tex",
+      "sha256": "14240969926ED46CCD1D9F75BA7EA8A25652B28FF27F436030F46D74DCFBA00E"
+    },
+    "immutable_v047": {
+      "bytes": 132270,
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v047.json",
+      "sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA"
+    },
+    "immutable_v051": {
+      "bytes": 152755,
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v051.json",
+      "sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE"
+    },
+    "r10_checker_return": {
+      "bytes": 6649,
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\05_independent_checking\\noether_chinese\\r10\\ret\\receipt.json",
+      "sha256": "4338E7695E92731F265CCDF523AD0A2B309EC7047922164072318C544E4E1323"
+    },
+    "release_override": {
+      "bytes": 1152,
+      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\00_lane_control\\RELEASE_GATE_OVERRIDE_20260813.md",
+      "sha256": "8B07A31E2BE62859F3593488EB664743A02D5D7F218E371529CBE6CB0BB7C0A9"
+    }
+  },
+  "local_pins": {
+    "STATE.md": {
+      "bytes": 2368,
+      "sha256": "B0FC9A8DA681863FAE6F1AF01FACE4F7DB7EC5518AA468356C350640D929BCAC"
+    },
+    "agents.jsonl": {
+      "bytes": 2035,
+      "sha256": "17A9C1899EA0C58472F112E052934B1CEA7D68DA667FA4BE1044947AF933828A"
+    },
+    "base.tex": {
+      "bytes": 1874053,
+      "sha256": "14240969926ED46CCD1D9F75BA7EA8A25652B28FF27F436030F46D74DCFBA00E"
+    },
+    "build.json": {
+      "bytes": 3508,
+      "sha256": "149913288328915FD491C9D2B99AEBC0ACC91E5C3E23DCAE0422BD3D6B710184"
+    },
+    "build.py": {
+      "bytes": 5394,
+      "sha256": "B97E177263897A417986B76A1336778673AF81E09F04171D7B152FD7D309E3B2"
+    },
+    "compare.json": {
+      "bytes": 338293,
+      "sha256": "69013DEAB77E89347821AA3EC5B38976B2E90D0303426BC3C566605458A353DA"
+    },
+    "compare.py": {
+      "bytes": 7545,
+      "sha256": "8E5B0B84F5C57CD032997239C88FF6F9BF233B562F565B2B0712E30CB13487B8"
+    },
+    "delta.json": {
+      "bytes": 3942,
+      "sha256": "AD7C82F6EE4EAF73A8C77A920042D559C1EC11D76D3C5091300DFA6A9394D845"
+    },
+    "events.jsonl": {
+      "bytes": 4552,
+      "sha256": "0CED422BB110C16A6A38617047B47909E4323AD3FCB90592B6B1B3C65AC52825"
+    },
+    "extract.json": {
+      "bytes": 10115,
+      "sha256": "8137C4489F41A80F8F67B43EDE64F407B98D8F6D2AC5940CF5E8C09B1B6D2068"
+    },
+    "fix.json": {
+      "bytes": 16219,
+      "sha256": "E790AC17D21E98B9042360CE8606C7EA3FB72D16AEFF75F7B5F11FC51052A831"
+    },
+    "fix.py": {
+      "bytes": 15103,
+      "sha256": "06476D0B8EA2670F7C3CC4D7C8EBC2163AF356916F5A71DAE6230342637EB518"
+    },
+    "fonts.txt": {
+      "bytes": 3389,
+      "sha256": "47019FAEB73FAA9819E8CEEB9BF738F1B9C21B4F3C42753353A73928396CCF31"
+    },
+    "fonts/NotoSansCJKsc-Bold.otf": {
+      "bytes": 17002248,
+      "sha256": "B5F0D1A190A7F9B43C310A8850630AF12553DF32C4C050543F9059732D9B4C0A"
+    },
+    "fonts/NotoSansCJKsc-Regular.otf": {
+      "bytes": 16437364,
+      "sha256": "2C76254F6FC379FDDFCE0A7E84FB5385BB135D3E399294F6EEB6680D0365B74B"
+    },
+    "fonts/NotoSansMono-Bold.ttf": {
+      "bytes": 525664,
+      "sha256": "BEB857BD799A114DE7D5D90CC75CC69F4B6EE8D401F4AB20697E6F9719A66DFC"
+    },
+    "fonts/NotoSansMono-Regular.ttf": {
+      "bytes": 512836,
+      "sha256": "D9E2B23D19F8230BE7146F409A52B1D23117E635E28F2E2892CF91B7382F325B"
+    },
+    "fonts/NotoSerifCJKsc-Bold.otf": {
+      "bytes": 25521460,
+      "sha256": "8AF07D4B6C2E82BCC72A30E066EAF295F11B9424F4AAD2EAA9FE0E9C3B38FC73"
+    },
+    "fonts/NotoSerifCJKsc-Regular.otf": {
+      "bytes": 24543080,
+      "sha256": "2A2EAE2628DF83556C54018C41E20FA532C1B862C5256AE8B3F23FEB918D12CA"
+    },
+    "handoff.md": {
+      "bytes": 1727,
+      "sha256": "D1029FB5902E12F18E422062026E4B2125085B2E3E1E31D6AE72F532DB7D07FB"
+    },
+    "log/p1.log": {
+      "bytes": 55449,
+      "sha256": "832D2B71BBA6E56B5E8BA169F18938C2A96802EA0FF3038F1A48C448570D73D2"
+    },
+    "log/p1.txt": {
+      "bytes": 13647,
+      "sha256": "D1CD5F0C6A13E5994EC63579FAD98F714830F329D08C493F1D1D3CA18ABB8FA7"
+    },
+    "log/p2.log": {
+      "bytes": 52510,
+      "sha256": "B8AA0F6FA9FE97A38FBE97EDF1DECB042C92F304A33EEFFC2A581673600CD342"
+    },
+    "log/p2.txt": {
+      "bytes": 10621,
+      "sha256": "0D9987C19657F37983ADA2B3240DE7415D1098D6F28CF23990C5A027E6FFA84A"
+    },
+    "log/p3.log": {
+      "bytes": 52510,
+      "sha256": "B8AA0F6FA9FE97A38FBE97EDF1DECB042C92F304A33EEFFC2A581673600CD342"
+    },
+    "log/p3.txt": {
+      "bytes": 10621,
+      "sha256": "0D9987C19657F37983ADA2B3240DE7415D1098D6F28CF23990C5A027E6FFA84A"
+    },
+    "map/oms.cmap": {
+      "bytes": 2370,
+      "sha256": "B0EA8E71B5D2E1DC86991867AF6B9547BE1BCC20EC7561D7C3BEDFA84204A999"
+    },
+    "map/omx.cmap": {
+      "bytes": 3001,
+      "sha256": "C07DF4892D287A36825A0611A1E2BE0C9F120260F632E00E17D4E8C5973331F8"
+    },
+    "map/umsb.cmap": {
+      "bytes": 2450,
+      "sha256": "22266C6FAA697A7266CF244EFF2A64037FF762F90B5AD123D8744054D2B02F82"
+    },
+    "prep.py": {
+      "bytes": 8632,
+      "sha256": "28C97E0AD8997256A127C8ED4687FDB1B6631B27B407673734573C868074ABB1"
+    },
+    "qa.json": {
+      "bytes": 5501,
+      "sha256": "3C5A23D05FB603CF72721BF6279E2D9417E6CCDBC9B56E68E8D7742FBAA2FE81"
+    },
+    "raw.pdf": {
+      "bytes": 2549851,
+      "sha256": "83940446386BA3A008F1D65C964E0923A4E60B511E165EAB651A5FB02433F1AD"
+    },
+    "rawfonts.txt": {
+      "bytes": 3389,
+      "sha256": "A7E8823962E118A6EA1F051E8182645B56CB05965E4AF56324004108E9410D81"
+    },
+    "reader.pdf": {
+      "bytes": 3129044,
+      "sha256": "0C457AB0C5F31BE1F6C8B5A4EC7ACB657ABE67979D5E9339BA493B599BC2D544"
+    },
+    "reader.tex": {
+      "bytes": 1874083,
+      "sha256": "553446A494A59530946AB70EC2F672BED4D45A33B7FA554765A11B8C038DA6D4"
+    },
+    "reader.txt": {
+      "bytes": 1896159,
+      "sha256": "9A50D8B3FDD0F410812ED295A29D5D9736E38A7BACC2A242E109941D0B444143"
+    },
+    "render.json": {
+      "bytes": 124487,
+      "sha256": "1F3E3E8E11BDB5AA209063D74382D91CA60837F1DB16A7B024C25144D015EE42"
+    },
+    "render.py": {
+      "bytes": 3592,
+      "sha256": "BD3C96101FA74B256798562F640142372E3EDFAC11B266ACF85764DC0B737622"
+    },
+    "return.json": {
+      "bytes": 4853,
+      "sha256": "3BE177A771301A02EDD2CF05FDAEC190D55867B50EA963D6152570D49AC17BB6"
+    },
+    "scan.py": {
+      "bytes": 5792,
+      "sha256": "3687166CB003013B4836B7B45807A83F981AC345549411D8C066456B8328D38B"
+    },
+    "seal.py": {
+      "bytes": 2446,
+      "sha256": "739B1D174033942CF37D96630B8050A7F7EE7673B73EC8DC84B1C8BE088B8AF5"
+    },
+    "src/cand.tex": {
+      "bytes": 1874053,
+      "sha256": "0CF0CDB22E66E00D01282BDAA33E5FEB65EDDE7DE2FE5000A1628D61F116F497"
+    },
+    "src/chk.csv": {
+      "bytes": 182,
+      "sha256": "174A07464A344A1240C654E3A393643E263DDE079DB335344A714E6CAED6185D"
+    },
+    "src/chk.json": {
+      "bytes": 6649,
+      "sha256": "4338E7695E92731F265CCDF523AD0A2B309EC7047922164072318C544E4E1323"
+    },
+    "src/chkv1.json": {
+      "bytes": 354,
+      "sha256": "05306EB89417404205688CC8A8B181137971C31A8C434304C4AC3D037C89271F"
+    },
+    "src/chkv2.json": {
+      "bytes": 464,
+      "sha256": "CA53579988EC6C4B5A35B18C91FB8EA8C954DA574FF3AEED7F6EB3D79C432F36"
+    },
+    "src/ext.csv": {
+      "bytes": 1091,
+      "sha256": "2F3738E2AABD7B585D474F8767F112E3D9D23AAECF2B8D66D85551F18FF00F31"
+    },
+    "src/ext.json": {
+      "bytes": 3144,
+      "sha256": "7EC290D5DA0054625EAB7F3CC0E9753A1674E782B6B78330DA4C262F528372AE"
+    },
+    "src/ext.md": {
+      "bytes": 3074,
+      "sha256": "6A48E98B660A308E164DDE821093AE640ED5F95AE466E9D39E8ED96472792887"
+    },
+    "src/find.csv": {
+      "bytes": 797,
+      "sha256": "74B36CC24D722708C4C06134BA204813D36EBEBEAA8138504B4819AC719E78EF"
+    },
+    "src/ptr.json": {
+      "bytes": 132270,
+      "sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA"
+    },
+    "src/r10.csv": {
+      "bytes": 4581,
+      "sha256": "F8647FE279273538F2E7702FB96CB633DDFA47CC59E856FBA6F272FC447EF371"
+    },
+    "src/r10frz.json": {
+      "bytes": 2380,
+      "sha256": "7A0C7EEE76597CB04761336D4D69CFF75B37715FB78A454B35056CC1F4D3F3B5"
+    },
+    "src/r10ret.json": {
+      "bytes": 4424,
+      "sha256": "1DF6EA1DAD813C6C1AE42E96B0E557287AC562C405F0D30DA985B989690E060D"
+    },
+    "src/state0.md": {
+      "bytes": 2405,
+      "sha256": "C92399F4A9F73627239176ABBB0BD49146595E64D7F3625F7A15C7A970EE8066"
+    },
+    "src/v051.json": {
+      "bytes": 152755,
+      "sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE"
+    },
+    "visual.json": {
+      "bytes": 2545,
+      "sha256": "AAD726DFC00399B1079DAC5ACD1F54DE0A4BC5FD2B2DDC62B45B13E4273F0F85"
+    }
+  },
+  "manifest": {
+    "bytes": 4912,
+    "entries": 58,
+    "member_bytes": 98855737,
+    "sha256": "7B8F8B1A4D399EF34AF618CA7609F44A9A745FECB6CB3D346B570B4FFB479EEC"
+  },
+  "root_census": {
+    "bytes_including_manifest": 98860649,
+    "files_including_manifest": 59
+  },
+  "scope": {
+    "German_mutated": false,
+    "Hant": "NO_INTAKE",
+    "SGA": "held and untouched",
+    "publication": "not_yet_published",
+    "target": "complete PRC-oriented zh-Hans Noether reader"
+  },
+  "verification_id": "ZH-NOETHER-CUM-R10B-VERIFY-002"
+}

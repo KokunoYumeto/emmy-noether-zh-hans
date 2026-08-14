@@ -1,0 +1,2 @@
+language_name	bcp47_tag	language_concept_doi	current_version_doi	direct_reader_preview_url	repository	coverage_state	qa_state	source_baseline
+Simplified Chinese / 简体中文	zh-Hans-CN	10.5281/zenodo.21933034	10.5281/zenodo.21933035	https://zenodo.org/records/21933035/files/00_NOETHER_zh-Hans_COMPLETE_READER.pdf	https://github.com/KokunoYumeto/emmy-noether-zh-hans	complete fixed maintained corpus	machine-validated; no external certification claim	NOETH-DE-AUTH-v047-20260808 / ED0011

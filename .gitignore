@@ -1,0 +1,7 @@
+release/*.zip
+work/
+*.aux
+*.log
+*.out
+*.toc
+__pycache__/

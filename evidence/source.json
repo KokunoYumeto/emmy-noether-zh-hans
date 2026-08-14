@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "family_mode": "FIXED_CORPUS",
+  "language": "zh-Hans-CN",
+  "zenodo_language": "zho",
+  "declared_scope": "43 numbered papers, two separately identified post-numbered works/scopes, and terminal bibliography/editorial apparatus",
+  "authority": {
+    "pointer_id": "NOETH-DE-AUTH-v047-20260808",
+    "pointer_bytes": 132270,
+    "pointer_sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA",
+    "edition_id": "NOETH-DE-ED-0011",
+    "edition_bytes": 2153594,
+    "edition_sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3",
+    "logical_lines": 24146
+  },
+  "frozen_target": {
+    "producer_root": "03_projects/language_management/cjk/03_working_translations/zh_r10b",
+    "tex_bytes": 1874083,
+    "tex_sha256": "553446A494A59530946AB70EC2F672BED4D45A33B7FA554765A11B8C038DA6D4",
+    "body_pdf_bytes": 3129044,
+    "body_pdf_sha256": "0C457AB0C5F31BE1F6C8B5A4EC7ACB657ABE67979D5E9339BA493B599BC2D544",
+    "body_pages": 424,
+    "manifest_sha256": "7B8F8B1A4D399EF34AF618CA7609F44A9A745FECB6CB3D346B570B4FFB479EEC"
+  },
+  "shared_source_mutated_by_language_release": false,
+  "scope_exclusions": ["zh-Hans-SG", "controlled Traditional Chinese", "Taiwan localization", "Hong Kong localization", "Macao localization", "SGA"]
+}

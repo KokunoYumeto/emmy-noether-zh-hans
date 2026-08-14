@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "release": "1.0.0",
+  "body_state": "SEALED_MACHINE_VALIDATED_RELEASE_READY",
+  "lineage": "PASS",
+  "source_replay": "32/32 PASS",
+  "serial_xelatex_passes": 3,
+  "stable_passes": "2/3",
+  "fatal_overfull_underfull_missing_character_signals": 0,
+  "tounicode_fonts": "34/34",
+  "poppler_disallowed_c0_or_replacement": 0,
+  "pypdf_disallowed_c0_or_replacement": 0,
+  "raw_fixed_pixel_equality_36dpi": "424/424",
+  "predecessor_current_content_text_geometry_raster_equality_120dpi": "424/424",
+  "body_pages_rendered": 424,
+  "body_pages_visible_in_contact_sheets": 424,
+  "original_detail_pages_opened": [1, 169, 424],
+  "body_visual_failures": 0,
+  "human_review_required": false,
+  "external_certification_claimed": false,
+  "publication_cover_validation": "recorded in release build and visual receipts"
+}

@@ -1,0 +1,21 @@
+{
+  "receipt_id": "ZH-R10B-OLD-001",
+  "archive": {
+    "path": "C:\\Users\\Floris\\Documents\\interlanguage\\old stuff\\old stuff Chinese Noether r10b scratch.zip",
+    "bytes": 326986889,
+    "sha256": "F43ABD3DC18EA76E636845313AC7BD731C40BB2BBA1EB82DA5570EB4B11D33AE",
+    "entries_including_index": 1712,
+    "data_files": 1711,
+    "source_bytes": 356887629,
+    "index": {"bytes":276936,"sha256":"22E7DB674137E7FE02AD9221E5E2061735098DBF4DDD55E5E1C35F0E75D59FBA","strict_json_parse":true},
+    "verification": "exact entry set/order/casefold uniqueness, bytes, SHA-256, CRC, testzip, strict index parse, and final archive identity PASS"
+  },
+  "archived_and_deleted_root": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10b_w",
+  "source_root_absent_after_delete": true,
+  "retained_live": {
+    "frozen_package": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10b",
+    "manifest_sha256": "7B8F8B1A4D399EF34AF618CA7609F44A9A745FECB6CB3D346B570B4FFB479EEC",
+    "handoff": "C:\\Users\\Floris\\Documents\\interlanguage\\04_handoffs\\zh_r10b"
+  },
+  "scope_effect": "reproducible build/render/contact-sheet scratch only; no frozen target, stopped-task root, German, SGA, checker, Hant, or publication mutation"
+}

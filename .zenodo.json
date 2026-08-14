@@ -1,0 +1,43 @@
+{
+  "title": "埃米·诺特数学著作全集——完整简体中文版 / Emmy Noether: Complete Simplified Chinese Corpus Edition",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "creators": [
+    {"name": "Noether, Emmy"}
+  ],
+  "contributors": [
+    {"name": "Manuscript Typesetting Project", "type": "Editor"},
+    {"name": "OpenAI Codex", "type": "Other"}
+  ],
+  "description": "<p><strong><a href=\"https://zenodo.org/records/21933035/files/00_NOETHER_zh-Hans_COMPLETE_READER.pdf\">预览完整简体中文读本</a></strong> / <a href=\"https://zenodo.org/records/21933035/files/00_NOETHER_zh-Hans_COMPLETE_READER.pdf?download=1\">直接下载 PDF</a>.</p><p>这是埃米·诺特维护范围内数学著作全集的独立简体中文版：43 篇编号论文、两项编号论文之后单独标识的著作/范围，以及末尾书目和版本附录。该版按 NOETH-DE-AUTH-v047-20260808 / ED0011 覆盖德文权威文本逻辑行 1–24,146。公开读本含一页 DOI 版次说明和 424 页经机器验证的正文。可编辑 TeX、字体与 CMap、变更和来源范围、确定性构建、双提取、424 页正文渲染验证及精确哈希保存在源文件和证据 ZIP 中。</p><p>This is the standalone PRC-oriented Simplified-Chinese edition of the complete maintained Emmy Noether corpus: 43 numbered papers, two separately identified post-numbered works/scopes, and terminal bibliography/editorial apparatus. The 425-page public reader consists of one DOI cover plus the unchanged 424-page machine-validated r10b body. DataCite intent: this edition <em>IsTranslationOf</em> the same-scope source corpus represented by 10.5281/zenodo.20412587 and <em>IsPartOf</em> that multilingual hub. No Traditional-Chinese, Singapore, Taiwan, Hong Kong, or Macao localization is claimed. No external, community, or human certification is claimed.</p>",
+  "version": "1.0.0",
+  "publication_date": "2026-08-14",
+  "access_right": "open",
+  "license": "cc-zero",
+  "language": "zho",
+  "keywords": [
+    "Emmy Noether",
+    "埃米·诺特",
+    "Simplified Chinese",
+    "简体中文",
+    "zh-Hans",
+    "translation",
+    "complete corpus edition",
+    "mathematics",
+    "algebra",
+    "invariant theory",
+    "ideal theory"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20412587",
+      "relation": "isPartOf",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://github.com/KokunoYumeto/emmy-noether-zh-hans",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    }
+  ]
+}

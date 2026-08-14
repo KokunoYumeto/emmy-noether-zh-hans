@@ -1,0 +1,9 @@
+*.tex text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.tsv text eol=lf
+*.cff text eol=lf
+*.pdf binary
+*.zip binary
+*.otf binary
+*.ttf binary

@@ -1,0 +1,41 @@
+{
+  "receipt_id": "ZH-NOETHER-CUM-R10B-FREEZE-001",
+  "state": "MACHINE_VALIDATED_RELEASE_READY",
+  "release_ready": true,
+  "publishable": true,
+  "root": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10b",
+  "manifest": {
+    "path": "manifest.csv",
+    "entries": 58,
+    "member_bytes": 98855737,
+    "bytes": 4912,
+    "sha256": "7B8F8B1A4D399EF34AF618CA7609F44A9A745FECB6CB3D346B570B4FFB479EEC"
+  },
+  "root_census": {"files_including_manifest":59,"bytes_including_manifest":98860649,"reparse_points":0},
+  "outputs": {
+    "tex": {"path":"reader.tex","bytes":1874083,"lines":25085,"sha256":"553446A494A59530946AB70EC2F672BED4D45A33B7FA554765A11B8C038DA6D4"},
+    "pdf": {"path":"reader.pdf","bytes":3129044,"pages":424,"sha256":"0C457AB0C5F31BE1F6C8B5A4EC7ACB657ABE67979D5E9339BA493B599BC2D544"}
+  },
+  "verifier": {
+    "path": "verify.py",
+    "bytes": 22666,
+    "sha256": "282A971B61A105A2DF499A9CC1FE3E0292BE59E186EA0AB2D6397481BFBA8529",
+    "checks": "120/120",
+    "disposition": "PASS_MACHINE_VALIDATED_RELEASE_READY"
+  },
+  "external_replays": [
+    {"path":"v1.json","bytes":29104,"sha256":"45EAF0C2DE6328E9C5B79CCE3B1858DBBD9B96E9A612572B92828F0DAACEAABF","all_pass":true},
+    {"path":"v2.json","bytes":29104,"sha256":"45EAF0C2DE6328E9C5B79CCE3B1858DBBD9B96E9A612572B92828F0DAACEAABF","all_pass":true}
+  ],
+  "replay_byte_identical": true,
+  "release_policy": {
+    "machine_validation": "PASS",
+    "human_review": "OPTIONAL_NONBLOCKING",
+    "independent_review": "OPTIONAL_NONBLOCKING",
+    "checker_acceptance": "NOT_REQUIRED",
+    "clean_day_gate": "NOT_APPLICABLE"
+  },
+  "claim_boundary": "No external, community, or human certification is claimed. Publication has not yet been performed.",
+  "scope": {"target":"complete PRC-oriented zh-Hans Noether reader","Hant":"NO_INTAKE","German_mutated":false,"SGA":"held and untouched"},
+  "latest_decision_at_seal": "ZH-D194"
+}

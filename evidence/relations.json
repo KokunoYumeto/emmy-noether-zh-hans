@@ -1,0 +1,30 @@
+{
+  "schema_version": "DataCite-4.7-intent",
+  "family_mode": "FIXED_CORPUS",
+  "resource_scope": "complete maintained Emmy Noether corpus in PRC-oriented Simplified Chinese",
+  "snapshot_coverage": "43 numbered papers, two post-numbered works/scopes, and terminal bibliography/editorial apparatus",
+  "language": "zh-Hans-CN",
+  "global_concept_doi": "10.5281/zenodo.20412587",
+  "language_concept_doi": "10.5281/zenodo.21933034",
+  "exact_version_doi": "10.5281/zenodo.21933035",
+  "collection_relations": [
+    {"from": "language_concept", "relationType": "IsPartOf", "to": "global_hub"},
+    {"from": "global_hub", "relationType": "HasPart", "to": "language_concept"},
+    {"from": "exact_version", "relationType": "IsVersionOf", "to": "language_concept"},
+    {"from": "language_concept", "relationType": "HasVersion", "to": "exact_version"}
+  ],
+  "single_original_relation_if_same_scope_exists": {
+    "enabled": true,
+    "original_identifier": "10.5281/zenodo.20412587",
+    "forward": {"from": "language_concept", "relationType": "IsTranslationOf", "to": "original"},
+    "reciprocal": {"from": "original", "relationType": "HasTranslation", "to": "language_concept"}
+  },
+  "component_source_mapping": "evidence/coverage.tsv",
+  "component_dois_required": false,
+  "zenodo_compatibility_2026_08_14": {
+    "translation_relation_values_exposed": false,
+    "translator_contributor_role_exposed": false,
+    "temporary_machine_readable_collection_relation": "IsPartOf/HasPart",
+    "translation_relations_preserved_in_description_and_evidence": true
+  }
+}
