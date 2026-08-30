@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.3 — 2026-08-30
+
+- Refreshes the cumulative privacy-safe decision-provenance bundle through producer decision `CJK-NOT-D041`, checker decision `ZHCHK-D132`, and checker state event `STATE-20260830-044`.
+- Carries forward release files 00, 01, 02, and 04 byte-for-byte from v1.0.2; replaces only checksum file 03 and cumulative provenance file 05.
+- Synchronizes this repository and its public release with version DOI `10.5281/zenodo.22177336`; no Chinese wording, mathematics, German authority, backend-conformance scope, or localization claim changes.
+
 ## 1.0.2 — 2026-08-30
 
 - Publishes the complete decision-provenance bundle for the frozen r10b edition: producer and independent-checker decision logs, freeze and acceptance receipts, manifests, and publication verification evidence.

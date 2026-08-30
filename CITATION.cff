@@ -5,7 +5,7 @@ type: software
 authors:
   - name: "Manuscript Typesetting Project"
 repository-code: "https://github.com/KokunoYumeto/emmy-noether-zh-hans"
-version: "1.0.2"
+version: "1.0.3"
 date-released: "2026-08-30"
 preferred-citation:
   type: book
@@ -17,10 +17,10 @@ preferred-citation:
     - name: "Manuscript Typesetting Project / OpenAI Codex"
   languages:
     - "zho"
-  doi: "10.5281/zenodo.22172487"
-  version: "1.0.2"
+  doi: "10.5281/zenodo.22177336"
+  version: "1.0.3"
   year: "2026"
-  url: "https://doi.org/10.5281/zenodo.22172487"
+  url: "https://doi.org/10.5281/zenodo.22177336"
   collection-title: "Emmy Noether multilingual corpus"
   collection-doi: "10.5281/zenodo.20412587"
   abstract: "Complete PRC-oriented Simplified-Chinese cumulative edition: 43 numbered papers, two post-numbered works/scopes, and terminal bibliography/editorial apparatus."
