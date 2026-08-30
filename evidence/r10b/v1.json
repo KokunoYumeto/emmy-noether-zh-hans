@@ -514,7 +514,7 @@
     {
       "evidence": {
         "bytes": 1874053,
-        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.tex",
+        "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.tex",
         "sha256": "14240969926ED46CCD1D9F75BA7EA8A25652B28FF27F436030F46D74DCFBA00E"
       },
       "id": "external:frozen_r10_tex",
@@ -523,7 +523,7 @@
     {
       "evidence": {
         "bytes": 3129035,
-        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.pdf",
+        "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.pdf",
         "sha256": "41FE49CAA081E5A22A4F8E3CEACFA046BD14E799EE806D9661AC8C4F9CE2E1CE"
       },
       "id": "external:frozen_r10_pdf",
@@ -532,7 +532,7 @@
     {
       "evidence": {
         "bytes": 4581,
-        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\manifest.csv",
+        "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\manifest.csv",
         "sha256": "F8647FE279273538F2E7702FB96CB633DDFA47CC59E856FBA6F272FC447EF371"
       },
       "id": "external:frozen_r10_manifest",
@@ -541,7 +541,7 @@
     {
       "evidence": {
         "bytes": 6649,
-        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\05_independent_checking\\noether_chinese\\r10\\ret\\receipt.json",
+        "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\05_independent_checking\\noether_chinese\\r10\\ret\\receipt.json",
         "sha256": "4338E7695E92731F265CCDF523AD0A2B309EC7047922164072318C544E4E1323"
       },
       "id": "external:r10_checker_return",
@@ -550,7 +550,7 @@
     {
       "evidence": {
         "bytes": 1152,
-        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\00_lane_control\\RELEASE_GATE_OVERRIDE_20260813.md",
+        "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\00_lane_control\\RELEASE_GATE_OVERRIDE_20260813.md",
         "sha256": "8B07A31E2BE62859F3593488EB664743A02D5D7F218E371529CBE6CB0BB7C0A9"
       },
       "id": "external:release_override",
@@ -559,7 +559,7 @@
     {
       "evidence": {
         "bytes": 132270,
-        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v047.json",
+        "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v047.json",
         "sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA"
       },
       "id": "external:immutable_v047",
@@ -568,7 +568,7 @@
     {
       "evidence": {
         "bytes": 152755,
-        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v051.json",
+        "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v051.json",
         "sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE"
       },
       "id": "external:immutable_v051",
@@ -577,7 +577,7 @@
     {
       "evidence": {
         "bytes": 2153594,
-        "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\candidates\\ED0011\\noether.tex",
+        "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\candidates\\ED0011\\noether.tex",
         "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3"
       },
       "id": "external:ED0011",
@@ -780,42 +780,42 @@
   "external_pins": {
     "ED0011": {
       "bytes": 2153594,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\candidates\\ED0011\\noether.tex",
+      "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\candidates\\ED0011\\noether.tex",
       "sha256": "9E6BF2BC3155ECE3DF98CD8A408C23662BEFB047A1DDF200CA1DC8476A488BF3"
     },
     "frozen_r10_manifest": {
       "bytes": 4581,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\manifest.csv",
+      "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\manifest.csv",
       "sha256": "F8647FE279273538F2E7702FB96CB633DDFA47CC59E856FBA6F272FC447EF371"
     },
     "frozen_r10_pdf": {
       "bytes": 3129035,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.pdf",
+      "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.pdf",
       "sha256": "41FE49CAA081E5A22A4F8E3CEACFA046BD14E799EE806D9661AC8C4F9CE2E1CE"
     },
     "frozen_r10_tex": {
       "bytes": 1874053,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.tex",
+      "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10\\reader.tex",
       "sha256": "14240969926ED46CCD1D9F75BA7EA8A25652B28FF27F436030F46D74DCFBA00E"
     },
     "immutable_v047": {
       "bytes": 132270,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v047.json",
+      "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v047.json",
       "sha256": "0053EA0B7E44DDE7EA7DC285ABC115DFC43F4A74B34C54DE8F39DE4E445D5BEA"
     },
     "immutable_v051": {
       "bytes": 152755,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v051.json",
+      "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\noether\\07_german_canon_control\\pointers\\v051.json",
       "sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE"
     },
     "r10_checker_return": {
       "bytes": 6649,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\05_independent_checking\\noether_chinese\\r10\\ret\\receipt.json",
+      "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\05_independent_checking\\noether_chinese\\r10\\ret\\receipt.json",
       "sha256": "4338E7695E92731F265CCDF523AD0A2B309EC7047922164072318C544E4E1323"
     },
     "release_override": {
       "bytes": 1152,
-      "path": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\00_lane_control\\RELEASE_GATE_OVERRIDE_20260813.md",
+      "path": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\00_lane_control\\RELEASE_GATE_OVERRIDE_20260813.md",
       "sha256": "8B07A31E2BE62859F3593488EB664743A02D5D7F218E371529CBE6CB0BB7C0A9"
     }
   },

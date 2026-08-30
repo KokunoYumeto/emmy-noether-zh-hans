@@ -3,7 +3,7 @@
   "state": "MACHINE_VALIDATED_RELEASE_READY",
   "release_ready": true,
   "publishable": true,
-  "root": "C:\\Users\\Floris\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10b",
+  "root": "C:\\Users\\[USER]\\Documents\\interlanguage\\03_projects\\language_management\\cjk\\03_working_translations\\zh_r10b",
   "manifest": {
     "path": "manifest.csv",
     "entries": 58,
@@ -24,10 +24,11 @@
     "disposition": "PASS_MACHINE_VALIDATED_RELEASE_READY"
   },
   "external_replays": [
-    {"path":"v1.json","bytes":29104,"sha256":"45EAF0C2DE6328E9C5B79CCE3B1858DBBD9B96E9A612572B92828F0DAACEAABF","all_pass":true},
-    {"path":"v2.json","bytes":29104,"sha256":"45EAF0C2DE6328E9C5B79CCE3B1858DBBD9B96E9A612572B92828F0DAACEAABF","all_pass":true}
+    {"path":"v1.json","bytes":29104,"sha256":"2E07F16F99688CA6AECDAE11BFC38276E4F30C2385DC06840E241E46C19F30AA","source_preimage_sha256":"45EAF0C2DE6328E9C5B79CCE3B1858DBBD9B96E9A612572B92828F0DAACEAABF","privacy_redactions":16,"all_pass":true},
+    {"path":"v2.json","bytes":29104,"sha256":"2E07F16F99688CA6AECDAE11BFC38276E4F30C2385DC06840E241E46C19F30AA","source_preimage_sha256":"45EAF0C2DE6328E9C5B79CCE3B1858DBBD9B96E9A612572B92828F0DAACEAABF","privacy_redactions":16,"all_pass":true}
   ],
   "replay_byte_identical": true,
+  "public_copy_privacy_transform": "Machine-local account first-name path components are replaced with [USER]; source preimage hashes are retained in privacy.json.",
   "release_policy": {
     "machine_validation": "PASS",
     "human_review": "OPTIONAL_NONBLOCKING",

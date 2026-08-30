@@ -1,0 +1,42 @@
+{
+  "schema": "zh-noether-public-evidence-privacy/1",
+  "release": "1.0.2",
+  "transform": "Replace every machine-local account first-name path component with [USER].",
+  "scope": "Public repository evidence copies only; no corpus, mathematical, German-authority, PDF, or release-archive bytes are changed.",
+  "total_redactions": 37,
+  "files": [
+    {
+      "path": "v1.json",
+      "redactions": 16,
+      "source_preimage_bytes": 29104,
+      "source_preimage_sha256": "45EAF0C2DE6328E9C5B79CCE3B1858DBBD9B96E9A612572B92828F0DAACEAABF",
+      "public_copy_bytes": 29104,
+      "public_copy_sha256": "2E07F16F99688CA6AECDAE11BFC38276E4F30C2385DC06840E241E46C19F30AA"
+    },
+    {
+      "path": "v2.json",
+      "redactions": 16,
+      "source_preimage_bytes": 29104,
+      "source_preimage_sha256": "45EAF0C2DE6328E9C5B79CCE3B1858DBBD9B96E9A612572B92828F0DAACEAABF",
+      "public_copy_bytes": 29104,
+      "public_copy_sha256": "2E07F16F99688CA6AECDAE11BFC38276E4F30C2385DC06840E241E46C19F30AA"
+    },
+    {
+      "path": "freeze.json",
+      "redactions": 1,
+      "source_preimage_bytes": 1966,
+      "source_preimage_sha256": "7D971757DDD956FF026FF2A0A8A8C773543C4D6EC125C25B74E661B01B02A6B4",
+      "public_copy_bytes": 2364,
+      "public_copy_sha256": "AA0712BB2A0469D81FD4E358DCADDC9740FDFF886622B74943A3C8C6F7DF973E",
+      "derived_adjustment": "External replay hashes are rebound to the redacted v1.json and v2.json copies; their source-preimage hashes remain recorded."
+    },
+    {
+      "path": "cleanup.json",
+      "redactions": 4,
+      "source_preimage_bytes": 1351,
+      "source_preimage_sha256": "E110B28FC47A5563C11D96E39E316599E1A1E91D5DEFD08958CE65318EC7CD63",
+      "public_copy_bytes": 1351,
+      "public_copy_sha256": "6386CF62C1524739AE1BA0C70C94A7492BA10765974415B17B332271C80EB0D4"
+    }
+  ]
+}

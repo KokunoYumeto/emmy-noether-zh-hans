@@ -1,5 +1,19 @@
 # Changelog
 
+## 1.0.2 — 2026-08-30
+
+- Publishes the complete decision-provenance bundle for the frozen r10b edition: producer and independent-checker decision logs, freeze and acceptance receipts, manifests, and publication verification evidence.
+- Carries forward the reader, source archive, evidence archive, and exact standalone r10b body PDF byte-for-byte from v1.0.1.
+- Replaces the release checksum manifest so all five payload files are covered.
+- Redacts machine-local account-name path components from four tracked repository evidence copies while retaining their source-preimage hashes and an exact transform receipt.
+- Synchronizes this repository and its public release with version DOI `10.5281/zenodo.22172487`; no Chinese, mathematical, German-source, or localization content changes.
+
+## 1.0.1 — 2026-08-30
+
+- Adds the exact independently accepted 424-page r10b body PDF as a standalone preservation file.
+- Carries forward the reader, source archive, and evidence archive byte-for-byte from v1.0.0 and updates the checksum manifest.
+- Published under version DOI `10.5281/zenodo.22167842`; no target-text change.
+
 ## 1.0.0 — 2026-08-14
 
 - First independent DOI release of the complete PRC-oriented Simplified-Chinese Emmy Noether corpus.

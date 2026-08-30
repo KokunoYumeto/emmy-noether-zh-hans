@@ -3,12 +3,12 @@
 [打开完整的链接式简体中文读本](reader/00_NOETHER_zh-Hans_COMPLETE_READER.pdf)
 
 - 简体中文版 Concept DOI: [10.5281/zenodo.21933034](https://doi.org/10.5281/zenodo.21933034)
-- 本版 DOI: [10.5281/zenodo.21933035](https://doi.org/10.5281/zenodo.21933035)
-- 直接预览: [00_NOETHER_zh-Hans_COMPLETE_READER.pdf](https://zenodo.org/records/21933035/files/00_NOETHER_zh-Hans_COMPLETE_READER.pdf)
-- 直接下载: [PDF](https://zenodo.org/records/21933035/files/00_NOETHER_zh-Hans_COMPLETE_READER.pdf?download=1)
+- 本版 DOI: [10.5281/zenodo.22172487](https://doi.org/10.5281/zenodo.22172487)
+- 直接预览: [00_NOETHER_zh-Hans_COMPLETE_READER.pdf](https://zenodo.org/records/22172487/files/00_NOETHER_zh-Hans_COMPLETE_READER.pdf)
+- 直接下载: [PDF](https://zenodo.org/records/22172487/files/00_NOETHER_zh-Hans_COMPLETE_READER.pdf?download=1)
 - 多语种总目录与德文来源: [10.5281/zenodo.20412587](https://doi.org/10.5281/zenodo.20412587)
 - 语言: 面向中国大陆的简体中文 (`zh-Hans-CN`; Zenodo `zho`)
-- 版本: `1.0.0`
+- 版本: `1.0.2`
 - 来源权威: `NOETH-DE-AUTH-v047-20260808 / ED0011`
 
 本项目公开埃米·诺特维护范围内数学著作全集的独立简体中文版：43 篇编号论文、两项编号论文之后单独标识的著作/范围，以及末尾书目和版本附录。这里的“完整”指本版所声明的固定语料范围全部纳入，不表示无误、校勘定本或经外部认证。
@@ -31,6 +31,8 @@
 - `evidence/`: 来源权威、范围矩阵、关系、机器验证、未决事项和哈希。
 - Zenodo 文件 `01_...SOURCE.zip`: 可编辑、可重建的源文件。
 - Zenodo 文件 `02_...EVIDENCE.zip`: 来源、谱系、构建、提取、渲染和决策证据。
+- Zenodo 文件 `04_...R10B_BODY.pdf`: 与冻结、独立验收的 424 页正文逐字节相同的独立 PDF。
+- Zenodo 文件 `05_...PROVENANCE.zip`: 截至本版的生产者与独立检查者决策日志、冻结/验收收据、清单和发布复核证据；文本副本中的本机账户名已经隐私替换，原文件预映像哈希仍保留以供核验。
 
 ## English identification
 
