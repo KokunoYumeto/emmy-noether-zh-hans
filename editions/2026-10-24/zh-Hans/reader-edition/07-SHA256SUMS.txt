@@ -1,0 +1,6 @@
+336fef54322be29cb7b6a0a31a472fc414abd57737310e8031ce16e7bc4c2a9c  01-noether-zh-Hans-base.pdf
+1a7a625c5ac8935a3a495eec39a12428005380d88c8f500c4a0acdbe32df2105  02-noether-zh-Hans-base.tex
+4801110b924832a82b13d5b84cd794eb5afcf362a8ff6ebbc835c2fbbadd46f8  03-noether-zh-Hans-base-sources.zip
+596f4a55c0521bf88ba04420f77eb0b9276eb29d0a85d5870f408e2a2cb1637c  04-noether-zh-Hans-emendations.pdf
+27b17b61d1475b0c7d53643b067a28dbe81b30166cc8e53446f4d50b33d65a51  05-noether-zh-Hans-emendations.tex
+5270c3ba5ff3f14ec78c2d72c2912668caaad44caf4539db782086767cb0d0f8  06-noether-zh-Hans-emendations-sources.zip

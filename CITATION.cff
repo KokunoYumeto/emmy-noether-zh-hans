@@ -1,12 +1,21 @@
 cff-version: 1.2.0
-message: "埃米·诺特数学著作集 — 简体中文版"
-title: "埃米·诺特数学著作集 — 简体中文版"
-type: book
+message: "请使用GitHub公开网址引用本简体中文版。出处的DOI标识相应历史版本。"
+title: "埃米·诺特数学著作集：简体中文版"
+type: dataset
+version: "2026-10-24"
+date-released: 2026-10-24
 authors:
   - family-names: Noether
     given-names: Emmy
-version: "2026-10-24-sources"
-repository-code: "https://github.com/KokunoYumeto/emmy-noether-zh-hans"
-url: "https://github.com/KokunoYumeto/emmy-noether-zh-hans"
-languages:
-  - zho
+url: "https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-24"
+abstract: "第1—43篇论文、M. Deuring记录的1929/30年讲义、Kapferer论文与Noether合写的补充、书目及相关目录。基本正文425页、订正版430页，附完整LaTeX与排版源文件。中文正文由AI翻译，早期准确模型未能确定；本版由AI制作的订正与排版：OpenAI Codex——GPT-6 Astra，Ultra推理强度。权利归各自权利人所有。"
+references:
+  - type: dataset
+    title: "简体中文版v1.0.0（2026-08-14）——Manuscript Typesetting Project / OpenAI Codex"
+    doi: 10.5281/zenodo.21933035
+  - type: dataset
+    title: "2026-06-12法文与简体中文汇编"
+    doi: 10.5281/zenodo.20836874
+  - type: dataset
+    title: "多语种汇编"
+    doi: 10.5281/zenodo.20412587
