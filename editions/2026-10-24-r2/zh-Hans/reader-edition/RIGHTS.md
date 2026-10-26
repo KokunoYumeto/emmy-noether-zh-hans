@@ -2,7 +2,7 @@
 
 原作者为Emmy Noether及各篇署名的共同作者。1929/30年冬季学期讲义由M. Deuring记录；H. Kapferer的论文与E. Noether合写的补充分别保留其署名。原刊信息和文献引用见正文。
 
-中文正文由AI翻译。早期简体中文版的制作方为Manuscript Typesetting Project / OpenAI Codex；现存出处资料不足以确定其准确模型。本版由AI制作的订正与排版：OpenAI Codex——GPT-6 Astra，Ultra推理强度。这不表示出版者亲自翻译，亦不表示经过独立学术审阅。
+中文正文由AI翻译。早期简体中文版的制作方为Manuscript Typesetting Project / OpenAI Codex；现存出处资料不足以确定其准确模型。本版由AI制作的订正与排版：OpenAI Codex——GPT-6 Astra，Ultra推理强度；Claude Opus 5.5（Anthropic），2026-10-26。这不表示出版者亲自翻译，亦不表示经过独立学术审阅。
 
 本版继承[简体中文版v1.0.0（2026-08-14）](https://doi.org/10.5281/zenodo.21933035)的正文；其德文底本为ED0011/v047（2026-08-08）。其中第1篇至第19篇第6节的早期中文文本见[2026-06-12法文与简体中文汇编](https://doi.org/10.5281/zenodo.20836874)。后续历史记录包括[v1.0.2](https://doi.org/10.5281/zenodo.22172487)及[v1.0.3](https://doi.org/10.5281/zenodo.22177336)。[简体中文系列标识](https://doi.org/10.5281/zenodo.21933034)与[多语种汇编](https://doi.org/10.5281/zenodo.20412587)分别指向相应资料。这些历史标识不是当前GitHub版的新DOI。
 
@@ -18,7 +18,7 @@ R9中文汇编及繁体字转换程序：OpenAI Codex——GPT-5.6 Sol，Ultra�
 
 繁体字形式由简体文本经opencc-python-reimplemented 0.1.7的s2t配置和固定正字规则生成；两种字形属于同一个中文译本。
 
-本版AI订正与排版：OpenAI Codex——GPT-6 Astra，Ultra推理强度，2026-10-23至2026-10-24。
+本版AI订正与排版：OpenAI Codex——GPT-6 Astra，Ultra推理强度，2026-10-23至2026-10-24；Claude Opus 5.5（Anthropic），2026-10-26。
 
 最初逐段翻译的准确模型、推理设定及工作日期尚未确定；2026-06-12是早期汇编的版本日期。
 
