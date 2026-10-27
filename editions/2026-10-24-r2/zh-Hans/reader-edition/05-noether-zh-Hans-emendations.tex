@@ -5024,7 +5024,7 @@ $n$ 个不定元、代数秩为 $\rho$ 的有理函数系统（有限个或无�
 \[
 \begin{aligned}
  [f(x)]_{(x_n=a_n)}&=f^{(n-1)}(x),\qquad
- [f^{(n-1)}(x)]_{x_{n-1}=a_{n-1}}=f^{(n-2)}(x);\ldots,\\
+ [f^{(n-1)}(x)]_{(x_{n-1}=a_{n-1})}=f^{(n-2)}(x),\\
  [f^{(\rho+1)}(x)]_{(x_{\rho+1}=a_{\rho+1})}&=f^*(x_1,\ldots,x_\rho)
 \end{aligned}
 \]
@@ -6394,9 +6394,9 @@ Math. Ann. 77 (1916), pp. 89--92
 \end{aligned}
 \qquad
 \left(\begin{array}{c}
-\alpha+\alpha_1+
+(\alpha+\alpha_1+
 \cdots+
-\alpha_n=h\\
+\alpha_n=h)\\
 \alpha\ne h
 \end{array}\right),
 \]
@@ -7558,10 +7558,10 @@ a_1(\eta)\cdot\chi_\nu(\eta)\equiv c_1^{(\nu)}(\eta)\pmod{\mathfrak M_2};\qquad
 前面各节的展开，对领域 $\mathfrak G$ 来说——只要不把代数数包括在领域 $\mathfrak G$ 的定义性质 III 和 IV 中——只依赖于全体复数形成一个域这一事实；\footnote{只有在 § 7 中还使用了有理数“素域”包含无穷多个元素这一附加假设；然而在只含有限多个元素的素域情形下，如我们将看到的，这一节简单地消失。}对领域 $\mathfrak H$ 来说，还依赖于这个域是代数闭的。所得结果因而直接允许\emph{推广到最一般的域}；这种域依 Weber 和 E. Steinitz\footnote{loc. cit., 引言。}抽象地定义为“具有加法和乘法两种运算的元素系统，这两种运算服从结合律和交换律，由分配律相联系，并且允许不受限制且唯一的逆运算。”\footnote{只须排除除以零。}
 
 % unit: noether.p09.par.077
-每个这样的域都含有一个单位元，并且因而含有由加法、乘法及其逆运算从单位元导出的“素域”。这个素域或者是有理数型（特征 $0$），或者是某个素数 $p$ 的剩余类系统型（特征 $p$）。\footnote{Steinitz, § 4。}\emph{素域的整量}于是明确定义为由单位元通过加法和减法得到的量；对于特征 $p$ 的素域，整量已经穷尽素域，并且不存在素域的分式量。每个代数闭域都含有一个“绝对代数域”，它由素域附加所有在素域上代数的元素而得到；对于特征 $0$ 的域，它因而是所有代数数的域这一类型。\emph{绝对代数域的整代数量}于是明确定义为所有在素域的整量上（或者等价地，在单位元上）整代数的量；对于特征 $p$ 的域，因此也不存在绝对代数域的代数分式量。在这些预备说明之后，“整”量和“代数整”量的定义可分别转移到任意域和代数闭域：\emph{域 $\mathfrak R$ 的整量定义为 $\mathfrak R$ 中量的一个整域 $\mathfrak G$，其商域\footnote{也就是由 $\mathfrak G$ 中成对量的所有商组成的域。}穷尽 $\mathfrak R$，并且它含有单位元但不含素域的任何分式量。}
+每个这样的域都含有一个单位元，并且因而含有由加法、乘法及其逆运算从单位元导出的“素域”。这个素域或者是有理数型（特征 $0$），或者是某个素数 $p$ 的剩余类系统型（特征 $p$）。\footnote{Steinitz, § 4。}\emph{素域的整量}于是明确定义为由单位元通过加法和减法得到的量；对于特征 $p$ 的素域，整量已经穷尽素域，并且不存在素域的分式量。每个代数闭域都含有一个“绝对代数域”，它由素域附加所有在素域上代数的元素而得到；对于特征 $0$ 的域，它因而是所有代数数的域这一类型。\emph{绝对代数域的整代数量}于是明确定义为所有在素域的整量上（或者等价地，在单位元上）整代数的量；对于特征 $p$ 的域，因此也不存在绝对代数域的代数分式量。在这些预备说明之后，“整”量和“代数整”量的定义可分别转移到任意域和代数闭域：\emph{域 $\mathfrak K$ 的整量定义为 $\mathfrak K$ 中量的一个整域 $\mathfrak G$，其商域\footnote{也就是由 $\mathfrak G$ 中成对量的所有商组成的域。}穷尽 $\mathfrak K$，并且它含有单位元但不含素域的任何分式量。}
 
 % unit: noether.p09.par.078
-\emph{代数闭域 $\mathfrak R$ 的代数整量定义为 $\mathfrak R$ 中量的一个代数整闭整域 $\mathfrak H$，其商域穷尽 $\mathfrak R$，并且它含有单位元但不含绝对代数域的任何代数分式量。}
+\emph{代数闭域 $\mathfrak L$ 的代数整量定义为 $\mathfrak L$ 中量的一个代数整闭整域 $\mathfrak H$，其商域穷尽 $\mathfrak L$，并且它含有单位元但不含绝对代数域的任何代数分式量。}
 
 % unit: noether.p09.par.079
 对于特征零的域，只要把“代数数”分别替换为素域的量和绝对代数域的量，前几节所得结果逐字适用。对于特征 $p$ 的域，结果还要进一步简化，因为素域不含任何分式量，所以有理基以及待附加系统的附加条件简单地消失。\footnote{参见本节第一条注。}于是结果为：\emph{抽象定义允许作为特征 $p$ 的域的整量的是：由任意有理基导出的每个整域、域本身，以及处于这些领域和该域之间的每个整域。相应地，作为素特征代数闭域的代数整量，有：处于由超越基导出的领域和该域本身之间的每个代数整闭整域——包括两个边界领域。}因此，对于最一般的素特征域，和相应素域一样，整与分式的区别消失。
@@ -7806,17 +7806,17 @@ f(iy)=\pm i f(y),
 \[
 (Y\mp y)=c\cdot(X-x)
 \]
-其中 $c$ 是实的、非零且有限的。这意味着当 $y=\pm cx$ 时，也有 $Y=c\cdot X$。因此，考虑到函数方程，对每个实数 $r$ 有
+其中 $c$ 是实的、非零且有限的。这意味着当 $y=\pm cx$ 时，也有 $Y=c\cdot X$。因此，考虑到函数方程，对每个实数 $\mathfrak{x}$ 有
 % unit: noether.p10.eq.025
 \[
-f\{r\cdot(1\pm ic)\}=X(1+ic)=f(r)\cdot(1+i f(c)),
+f\{\mathfrak{x}\cdot(1\pm ic)\}=X(1+ic)=f(\mathfrak{x})\cdot(1+i f(c)),
 \]
-其中 $X$ 仍为实数。但这里按照第 1 节，$f(r)$ 的因子不可能恒等为零，作除法得到
+其中 $X$ 仍为实数。但这里按照第 1 节，$f(\mathfrak{x})$ 的因子不可能恒等为零，作除法得到
 % unit: noether.p10.eq.026
 \[
-f(r)=X(\sigma+i\tau)
+f(\mathfrak{x})=X(\sigma+i\tau)
 \]
-其中 $\sigma$ 和 $\tau$ 为实数，并且与 $r$ 和 $X$ 无关。特别地，对 $r=1$ 也有一个实的 $\mathfrak{X}_0$ 与之相属，而条件 $1=\mathfrak{X}_0(\sigma+i\tau)$ 表明必然 $\tau=0$，于是 $f(r)=\sigma\cdot X$。因此每个实的 $z$ 也对应一个实的 $f(z)$；等价地，由 $y=0$ 必然推出 $Y=0$。于是对于实的 $z$，线性关系变为 $X-x=0$；\footnote{这里使用了 $c\ne0$ 这一事实，因而 $c_3$ 和 $c_4$ 都不为零，而前面只用了 $c_4\ne0$；所以必须预先处理这两个数中有一个为零的情形。}每个实值对应它自身。再次只有 $f(z)=z$ 或 $\overline z$，所以实际上是二秩。由此在所有情形中排除了三秩。但是，正如前几节的研究所表明的，不连续解确实存在，而这些解因而必然具有四秩；故由 1) 得到定理：\emph{“函数方程 (1) 至 (4) 的所有解} $f(z)$，\emph{除连续解} $f(z)=z$ \emph{或} $\overline z$ \emph{之外，在实数和复数范围内都是极端不连续的。”}\footnote{Lebesgue 在前引处表明，$f(z)$ 的实部和虚部都是 $x$ 与 $y$ 的“不可测”函数；如第 4 节开头的例子 $\varphi(z)=\varphi(x)+i(y+\varphi(x))$ 所示，这还不能推出在复数范围内的极端不连续性。}
+其中 $\sigma$ 和 $\tau$ 为实数，并且与 $\mathfrak{x}$ 和 $X$ 无关。特别地，对 $\mathfrak{x}=1$ 也有一个实的 $\mathfrak{X}_0$ 与之相属，而条件 $1=\mathfrak{X}_0(\sigma+i\tau)$ 表明必然 $\tau=0$，于是 $f(\mathfrak{x})=\sigma\cdot X$。因此每个实的 $z$ 也对应一个实的 $f(z)$；等价地，由 $y=0$ 必然推出 $Y=0$。于是对于实的 $z$，线性关系变为 $X-x=0$；\footnote{这里使用了 $c\ne0$ 这一事实，因而 $c_3$ 和 $c_4$ 都不为零，而前面只用了 $c_4\ne0$；所以必须预先处理这两个数中有一个为零的情形。}每个实值对应它自身。再次只有 $f(z)=z$ 或 $\overline z$，所以实际上是二秩。由此在所有情形中排除了三秩。但是，正如前几节的研究所表明的，不连续解确实存在，而这些解因而必然具有四秩；故由 1) 得到定理：\emph{“函数方程 (1) 至 (4) 的所有解} $f(z)$，\emph{除连续解} $f(z)=z$ \emph{或} $\overline z$ \emph{之外，在实数和复数范围内都是极端不连续的。”}\footnote{Lebesgue 在前引处表明，$f(z)$ 的实部和虚部都是 $x$ 与 $y$ 的“不可测”函数；如第 4 节开头的例子 $\varphi(z)=\varphi(x)+i(y+\varphi(x))$ 所示，这还不能推出在复数范围内的极端不连续性。}
 
 % unit: noether.p10.close.001
 \medskip
@@ -8221,7 +8221,7 @@ f_{\delta^\sigma}=
 \end{gathered}
 \tag{3}
 \end{equation}
-借助 (1)，关系 (2) 和 (3) 可以读出 \(f(x,dx)\) 的导数的变换律；不过下文并不需要这一点。由不变量 (3)，现在可以通过线性组合得到“第 \(\varrho\) 次变分的正规形式”；在 \(\varrho=1\) 时它见于 Lagrange，在 \(\varrho=2\) 时见于 Riemann。它的特征在于阶数为 \(\varrho+1\) 的混合微分，即 \(d^\varrho\delta,d^{\varrho-1}\delta^2,\ldots\)，被消去。得到：
+借助 (1)，关系 (2) 和 (3) 可以读出 \(f(x,dx)\) 的导数的变换律；不过下文并不需要这一点。由不变量 (3)，现在可以通过线性组合得到“第 \(\varrho\) 次变分的正规形式”；在 \(\varrho=1\) 时它见于 Lagrange，在 \(\varrho=2\) 时见于 Riemann。它的特征在于阶数为 \(\varrho+1\) 的混合微分，即 \(d^\varrho\delta,d^{\varrho-1}\delta^2\ldots\)，被消去。得到：
 % unit: noether.p12.eq.005
 \begin{equation}
 \begin{gathered}
@@ -9776,7 +9776,7 @@ Hilbert 特别指出了代数函数和代数数中的超越问题之间的类似
 推出
 % unit: noether.p15.eq.038
 \[
-        F(\xi_{ik})\equiv0\pmod{\frM}\quad \text{在 $\xi_{ik}$ 中恒等},
+        F(\xi_{ik})\equiv0 \bmod \frM\quad [\text{在 $\xi_{ik}$ 中恒等}],
 \]
 反之亦然。
 
@@ -12086,7 +12086,7 @@ $d=a_{i_1}+a_{i_2}+\cdots+a_{i_n}$；这里 $\ideal{D}$ 也仍然是一个理想
  \ideal M=[\ideal B_1,\ideal C_1]=[\ideal B_1,\ideal B_2,\ideal C_2]=\cdots=[\ideal B_1,\ldots,\ideal B_n,\ideal C_n]=\cdots .
 \tag{1}
 \end{equation}
-在链 $\ideal C_1,\ideal C_2,\ldots,\ideal C_\nu,\ldots$ 中，每个 $\ideal C_i$ 都是其紧前一个理想的真因子，因此该链在有限步后终止；存在一个指标 $n$，使得 $\ideal C_n$ 不可约。再由引理 I，表示 $\ideal M=[\ideal B_1\cdots\ideal B_n\ideal C_n]$ 是约化的；因此 $\ideal C_n$ 不能包含在它的补理想 $\ideal A_n$ 中，并且在表示 $\ideal M=[\ideal A_n,\ideal C_n]$ 中，理想 $\ideal U_n$ 不能由一个真因子替换。必要时把 $\ideal A_n$ 换成一个真因子，\footnote{事实上，这个表示关于 $\ideal A_n$ 也约化；这一点将在 \S~3（引理 IV）中作为引理 I 的逆命题得到证明。}从而使表示成为约化表示，由此可见，每个可约理想都容许作为一个不可约理想和一个与之互补的理想的最小公倍的约化表示。因此，在列 (1) 中，可以不失一般性地假定所有 $\ideal B_i$ 都不可约；重复上述论证，就得到一个不可约的 $\ideal C_n$ 的存在，从而证明了定理 II。
+在链 $\ideal C_1,\ideal C_2,\ldots,\ideal C_\nu,\ldots$ 中，每个 $\ideal C_i$ 都是其紧前一个理想的真因子，因此该链在有限步后终止；存在一个指标 $n$，使得 $\ideal C_n$ 不可约。再由引理 I，表示 $\ideal M=[\ideal B_1\cdots\ideal B_n\ideal C_n]$ 是约化的；因此 $\ideal C_n$ 不能包含在它的补理想 $\ideal A_n$ 中，并且在表示 $\ideal M=[\ideal A_n,\ideal C_n]$ 中，理想 $\ideal C_n$ 不能由一个真因子替换。必要时把 $\ideal A_n$ 换成一个真因子，\footnote{事实上，这个表示关于 $\ideal A_n$ 也约化；这一点将在 \S~3（引理 IV）中作为引理 I 的逆命题得到证明。}从而使表示成为约化表示，由此可见，每个可约理想都容许作为一个不可约理想和一个与之互补的理想的最小公倍的约化表示。因此，在列 (1) 中，可以不失一般性地假定所有 $\ideal B_i$ 都不可约；重复上述论证，就得到一个不可约的 $\ideal C_n$ 的存在，从而证明了定理 II。
 %
 %
 % unit: noether.p19.sec.003
@@ -12456,7 +12456,7 @@ $d=a_{i_1}+a_{i_2}+\cdots+a_{i_n}$；这里 $\ideal{D}$ 也仍然是一个理想
 \begin{aligned}
  \ideal M&=[\ideal D_1\cdots\ideal D_{i-1}\ideal B_i\ideal B_{i+1}\cdots\ideal B_k]
        =[\ideal D_1\cdots\ideal D_{i-1}\ideal D_i\ideal B_{i+1}\cdots\ideal B_k]\\
-       &=[\overline{\ideal A}_i,\ideal B_i]=[\overline{\ideal A}_i,\ideal D_i].
+       &=[\bar{\ideal A}_i,\ideal B_i]=[\bar{\ideal A}_i,\ideal D_i].
 \end{aligned}
 \]
 于是得到
@@ -13146,11 +13146,11 @@ $T$ 是由元素 $\alpha,\beta,\gamma,\ldots$ 组成的系统；它同 $\Sigma$ 
 
 该领域的素理想是 $\ideal P_0=\ideal O=(2)$ 以及 $\ideal P=(2p)$，其中 $p$ 表示奇素数；因此每个素理想都可被 $\ideal P_0$ 整除，但不可被其他素理想整除。准素理想为
 \[
- \ideal Q_0=(2\cdot2^{\varrho_0})
+ \ideal Q_{\varrho_0}=(2\cdot2^{\varrho_0})
  \qquad\text{和}\qquad
  \ideal Q_\varrho=(2p^\varrho).
 \]
-它们同时也是不可约理想；并且根据关于素理想的说明，属于不同奇素数的两个理想互相相对素，但没有任何 $\ideal Q$ 同任何 $\ideal Q_0$ 相对素。\footnote{事实上，对奇素数 $p_1\ne p_2$，由 $2b\cdot2p_1^{\varrho_1}\equiv0(2p_2^{\varrho_2})$ 总得到 $2b\equiv0(2p_2^{\varrho_2})$；但由 $2b\cdot2p^\varrho\equiv0(2\cdot2^{\varrho_0})$ 只能得到 $2b=2\cdot2^{\varrho_0-1}\pmod{2\cdot2^{\varrho_0}}$。} 因而 $\ideal Q_0$ 是唯一的非孤立准素理想。$a$ 到素数幂的唯一分解，对应于理想 $(2a)$ 由最大准素、同时不可约的理想给出的唯一表示：
+它们同时也是不可约理想；并且根据关于素理想的说明，属于不同奇素数的两个理想互相相对素，但没有任何 $\ideal Q$ 同任何 $\ideal Q_{\varrho_0}$ 相对素。\footnote{事实上，对奇素数 $p_1\ne p_2$，由 $2b\cdot2p_1^{\varrho_1}\equiv0(2p_2^{\varrho_2})$ 总得到 $2b\equiv0(2p_2^{\varrho_2})$；但由 $2b\cdot2p^\varrho\equiv0(2\cdot2^{\varrho_0})$ 只能得到 $2b=2\cdot2^{\varrho_0-1}\pmod{2\cdot2^{\varrho_0}}$。} 因而 $\ideal Q_0$ 是唯一的非孤立准素理想。$a$ 到素数幂的唯一分解，对应于理想 $(2a)$ 由最大准素、同时不可约的理想给出的唯一表示：
 \[
  (2a)=[(2\cdot2^{e_0}),(2p_1^{e_1}),\ldots,(2p_\mu^{e_\mu})].
 \]
@@ -13212,7 +13212,7 @@ $T$ 是由元素 $\alpha,\beta,\gamma,\ldots$ 组成的系统；它同 $\Sigma$ 
  \mathfrak B_{\varrho+1}\sim(1\mid\cdots\mid1\mid0\mid\cdots\mid0),
 \end{gathered}
 \]
-其中在 $\mathfrak B_\nu$ 中数 $1$ 出现 $(\nu-1)$ 次。例如，如果 $r_1=r_2=\cdots=r_\mu=0$，则 $\mathfrak B_1,\ldots,\mathfrak B_\mu$ 等于单位类，应从分解中省去；若 $\rho=n$，对 $\mathfrak B_{\rho+1}$ 也同样如此。再若例如 $r_\nu=r_{\nu+1}=\cdots=r_{\nu+\lambda}$，则 $\mathfrak B_{\nu+1},\ldots \mathfrak B_{\nu+\lambda}$ 是 $\mathfrak B_\nu$ 的真因子，也应删去。把剩下的那些记作 $\mathfrak B_{i_1},\ldots,\mathfrak B_{i_k}$，它们现在给出一个最短表示。于是
+其中在 $\mathfrak B_\nu$ 中数 $1$ 出现 $(\nu-1)$ 次。例如，如果 $r_1=r_2=\cdots=r_\mu=0$，则 $\mathfrak B_1,\ldots,\mathfrak B_\mu$ 等于单位类，应从分解中省去；若 $\varrho=n$，对 $\mathfrak B_{\varrho+1}$ 也同样如此。再若例如 $r_\nu=r_{\nu+1}=\cdots=r_{\nu+\lambda}$，则 $\mathfrak B_{\nu+1},\ldots \mathfrak B_{\nu+\lambda}$ 是 $\mathfrak B_\nu$ 的真因子，也应删去。把剩下的那些记作 $\mathfrak B_{i_1},\ldots,\mathfrak B_{i_k}$，它们现在给出一个最短表示。于是
 \[
  \mathfrak Q=[\mathfrak B_{i_1},\ldots,\mathfrak B_{i_k}]
 \]
@@ -14598,7 +14598,7 @@ Math. Ann. 90 (1923), pp. 229--261
 
 \subsection*{§ 1. 消去论、一般理想论与域论的基本概念}
 
-\textbf{1. 域。} 令 $\mathfrak{J}$ 表示所有以抽象定义的域 $\mathsf{P}$ 中元素为系数、关于 $y_1,\ldots,y_n$ 的多项式的整环域。令 $y$ 经受一个以不定元 $u_{\mu\nu}$ 为系数的变换：\footnote{考虑到 § 3 及其后各处，这个变换比 H.-N. 中的稍一般；其中所有结果因而更仍然成立。}
+\textbf{1. 域。} 令 $\bar{\mathfrak{J}}$ 表示所有以抽象定义的域 $\mathsf{P}$ 中元素为系数、关于 $y_1,\ldots,y_n$ 的多项式的整环域。令 $y$ 经受一个以不定元 $u_{\mu\nu}$ 为系数的变换：\footnote{考虑到 § 3 及其后各处，这个变换比 H.-N. 中的稍一般；其中所有结果因而更仍然成立。}
 \begin{align}
  y_1&=u_{11}x_1+\cdots+u_{1n}x_n,\quad \ldots,\quad
  y_n=u_{n1}x_1+\cdots+u_{nn}x_n, \tag{1}
@@ -14703,9 +14703,9 @@ Math. Ann. 90 (1923), pp. 229--261
 \]
 且至少有一个 $a_i(y)$ 和一个 $b_i(y)$ 不被 $\bar{\frakp}$ 整除。设例如在某个 $T$ 的词典序中，$a_h(y)\not\equiv0\pmod{\bar{\frakp}}$ 与 $b_k(y)\not\equiv0\pmod{\bar{\frakp}}$ 分别为最高项；那么也有 $a_h(y)b_k(y)\not\equiv0\pmod{\bar{\frakp}}$，从而 $a(x)b(x)\not\equiv0\pmod{\frakp}$，因而 $\fraka\frakb\not\equiv0\pmod{\frakp}$，这证明 $\frakp$ 是素的。这个证明显然依赖于这样一个事实：模素理想的剩余类系形成无零因子的环，而附加不定元保持这一性质。
 
-相应地，设 $\fraka\not\equiv0\pmod{\frakq}$ 且对每个幂 $x$ 都有 $\frakb^x\not\equiv0\pmod{\frakq}$；则由理想基的存在可知，必存在 $\fraka$ 中的 $a(x)$ 和 $\frakb$ 中的 $b(x)$，使 $a(x)\not\equiv0\pmod{\frakq}$ 且对每个幂 $x$ 都有 $b(x)^x\not\equiv0\pmod{\frakq}$；否则，$\frakb$ 的某个幂将被 $\frakq$ 整除。
+相应地，设 $\fraka\not\equiv0\pmod{\frakq}$ 且对每个幂 $x$ 都有 $\frakb^x\not\equiv0\pmod{\frakq}$；则由理想基的存在可知，必存在 $\fraka$ 中的 $a(x)$ 和 $\frakb$ 中的 $b(x)$，使 $a(x)\not\equiv0\pmod{\frakq}$ 且对每个幂 $x$ 都有 $b(x)^\varkappa\not\equiv0\pmod{\frakq}$；否则，$\frakb$ 的某个幂将被 $\frakq$ 整除。
 
-令 $a(x)b(x)=c(x)$，并令 $\fraka^*,\frakb^*,\frakc^*$ 分别表示由 $a(x),b(x),c(x)$ 的系数 $a_i(y),b_j(y),c_k(y)$ 导出的理想。则对每个幂 $x$ 都有 $\frakb^{*x}\not\equiv0\pmod{\bar{\frakq}}$，否则 $b(x)^x$ 将被 $\frakq$ 整除；由于 $\fraka^*\not\equiv0\pmod{\bar{\frakq}}$，还必有对每个幂 $\lambda$ 都有 $\fraka^*\frakb^{*\lambda}\not\equiv0\pmod{\bar{\frakq}}$。但由 Dedekind--Mertens 定理\footnote{比较 H.-N., p. 63 and note 10）。}存在指数 $\lambda$，使 $\fraka^*\frakb^{*\lambda}\equiv \frakc^*\frakb^{*\lambda-1}$；于是 $\frakc^*\not\equiv0\pmod{\bar{\frakq}}$。这给出 $c(x)\not\equiv0\pmod{\frakq}$，从而 $\fraka\frakb\not\equiv0\pmod{\frakq}$，证明 $\frakq$ 是准素的。
+令 $a(x)b(x)=c(x)$，并令 $\fraka^*,\frakb^*,\frakc^*$ 分别表示由 $a(x),b(x),c(x)$ 的系数 $a_i(y),b_j(y),c_k(y)$ 导出的理想。则对每个幂 $x$ 都有 $\frakb^{*x}\not\equiv0\pmod{\bar{\frakq}}$，否则 $b(x)^\varkappa$ 将被 $\frakq$ 整除；由于 $\fraka^*\not\equiv0\pmod{\bar{\frakq}}$，还必有对每个幂 $\lambda$ 都有 $\fraka^*\frakb^{*\lambda}\not\equiv0\pmod{\bar{\frakq}}$。但由 Dedekind--Mertens 定理\footnote{比较 H.-N., p. 63 and note 10）。}存在指数 $\lambda$，使 $\fraka^*\frakb^{*\lambda}\equiv \frakc^*\frakb^{*\lambda-1}$；于是 $\frakc^*\not\equiv0\pmod{\bar{\frakq}}$。这给出 $c(x)\not\equiv0\pmod{\frakq}$，从而 $\fraka\frakb\not\equiv0\pmod{\frakq}$，证明 $\frakq$ 是准素的。
 
 在把理想表示为最小公倍数时，也可以限制于变换理想，即
 
@@ -14771,7 +14771,7 @@ Math. Ann. 90 (1923), pp. 229--261
 
 \textbf{记号。} 一般用把任一代表元置于括号中的方式表示剩余类，$(x),\ldots,(a(x)),\ldots$；同样，剩余类的域也用括号表示。特别地，$(P)$、$(\mathsf{P}(u))$、$(\mathsf{P}(u,x_{i+1},\ldots,x_n))$ 表示所有且仅有由 $P$、$\mathsf{P}(u)$、$\mathsf{P}(u,x_{i+1},\ldots,x_n)$ 中元素表示的剩余类所组成的剩余类域。
 
-还回忆如下内容。若域 $\mathcal R$ 相对于基域 $\Omega$ 含有至少一个由 $k$ 个在 $\Omega$ 上代数无关的量--超越量--组成的系，而 $\mathcal R$ 中任意 $k+1$ 个量在 $\Omega$ 上代数相关，则称 $\mathcal R$ 相对于 $\Omega$ 的代数秩（超越次数）为 $k$。若 $\mathcal R$ 可表示为某个子域 $\Omega(z_1,\ldots,z_s)$ 的代数扩张域，其中 $z$ 在 $\Omega$ 上代数无关--超越--则必有 $s=k$；\footnote{关于这一熟知事实在任意特征下成立的证明，比较 Steinitz, § 22, 9。--附加 $u$ 时，代数秩不能增加，因为只涉及原元素以 $\Omega(u)$ 中系数作有理组合；也不能降低，因为元素之间以 $\Omega(u)$ 中系数给出的每个关系，都分解为有限多个以 $\Omega$ 中系数给出的关系。}同样，当 $u$ 表示不含于 $\mathcal R$ 的不定元时，$\mathcal R(u)$ 相对于 $\Omega(u)$ 的代数秩也等于 $k$。
+还回忆如下内容。若域 $\mathcal R$ 相对于基域 $\Omega$ 含有至少一个由 $k$ 个在 $\Omega$ 上代数无关的量--超越量--组成的系，而 $\mathcal R$ 中任意 $k+1$ 个量在 $\Omega$ 上代数相关，则称 $\mathcal R$ 相对于 $\Omega$ 的代数秩（超越次数）为 $k$。若 $\mathcal R$ 可表示为某个子域 $\Omega(z_1,\ldots,z_s)$ 的代数扩张域，其中 $z$ 在 $\Omega$ 上代数无关--超越--则必有 $s=k$；\footnote{关于这一熟知事实在任意特征下成立的证明，比较 Steinitz, § 22, 9。--附加 $u$ 时，代数秩不能增加，因为只涉及原元素以 $\Omega(u)$ 中系数作有理组合；也不能降低，因为元素之间以 $\Omega(u)$ 中系数给出的每个关系，都分解为有限多个以 $\Omega$ 中系数给出的关系。}同样，当 $u$ 表示不含于 $\mathcal R$ 的不定元时，$\mathfrak{K}(u)$ 相对于 $\Omega(u)$ 的代数秩也等于 $k$。
 
 零点域的构造现在完全类比于一元素函数的通常道路，\footnote{Steinitz, § 6。}即
 
@@ -14806,7 +14806,7 @@ Math. Ann. 90 (1923), pp. 229--261
  P^{(i)}=\prod_\nu (x_i-t_{i+1}x_{i+1}^{(\nu)}-\cdots-t_nx_n^{(\nu)})^e
  =\prod_\nu (t_i(y_i-y_i^{(\nu)})+\cdots+t_n(y_n-y_n^{(\nu)}))^e,
 \]
-其中 $y_1^{(\nu)},\ldots,y_n^{(\nu)}$ 表示原不定元 $y$ 的一个关联零点系，与 $t_i,\ldots,t_n$ 无关；不同的 $\nu$ 对应于不同的线性因子；指数 $e$ 在 $P$ 完美时等于一，在 $P$ 非完美时等于 $p^f$（$f>0$）。由此，在附加新的不定元 $v$ 后，把 $u_{\mu\nu}$ 换为 $u$ 与 $v$ 的双线性组合而写成的初等因子形式的分解也被确定：
+其中 $y_1^{(\nu)},\ldots,y_n^{(\nu)}$ 表示原不定元 $y$ 的一个关联零点系，与 $t_i,\ldots,t_n$ 无关；不同的 $\nu$ 对应于不同的线性因子；指数 $e$ 在 $P$ 完美时等于一，在 $P$ 非完美时等于 $p^f$（$f\geqq0$）。由此，在附加新的不定元 $v$ 后，把 $u_{\mu\nu}$ 换为 $u$ 与 $v$ 的双线性组合而写成的初等因子形式的分解也被确定：
 \[
  P^{(i)}(w)=\prod_\nu (z_i-z_i^{(\nu)})^e
  =\prod_\nu (v_{i1}(y_1-y_1^{(\nu)})+\cdots+v_{in}(y_n-y_n^{(\nu)}))^e,
@@ -16180,7 +16180,7 @@ Journal f. d. reine u. angew. Math. 157 (1927), pp. 82--104
 
 这样的模基在对基整环的每个素元取模后，仍化为剩余类环的一组基；而即便对极大阶而言，若基由本原元的幂组成，这一点也未必成立；一旦涉及多个不定元的整代数函数，由基本型的幂组成的基也未必如此。\footnote{参看 Ostrowski，前引文，“第一类不规则性”。} 换句话说：以基整环为系数的一元多项式环，按任意定义方程，甚至按基本方程取模后所得的剩余类环，模 $p$ 未必同极大阶模 $(p)$ 的剩余类环同构。通常表述中的主要困难就在于这种同构的消失。由于这里并不引入这个辅助多项式环，这些困难也就自动避免。同时，剩余类环的加法分解理论可以理解为方程乘法分解的对应物；在这里同样，分解为互素因子对应于多项式剩余类环中的加法分解。
 
-须指出，判别式定理只能代表阶的一般分歧理论中的第一个定理，正如在极大阶情形中，判别式定理还伴随着更精细的分歧理想理论，后者在那里允许更精确地决定指数。这个指数的决定，依赖于方程准素因子的幂表示，可解释为从 $\mathfrak p$ 到 $q=p^t$ 的一个合成列长度的决定，并且大概会以这种形式出现在一般分歧理论中。
+须指出，判别式定理只能代表阶的一般分歧理论中的第一个定理，正如在极大阶情形中，判别式定理还伴随着更精细的分歧理想理论，后者在那里允许更精确地决定指数。这个指数的决定，依赖于方程准素因子的幂表示，可解释为从 $\mathfrak p$ 到 $\mathfrak q=\mathfrak p^\varrho$ 的一个合成列长度的决定，并且大概会以这种形式出现在一般分歧理论中。
 
 \subsection*{\S 1. 域的扩张环}
 
@@ -16553,7 +16553,7 @@ S_{(\mb)}(\beta_i\beta_k)&0\\
 
 \textbf{3. 定理。} \emph{有限秩环 $\mR$ 在子域 $\mathsf{P}$ 上第一类完全可约，当且仅当其判别式理想是 $\mathsf{P}$ 中的单位理想；换言之，当且仅当在单位平方因子意义下确定的判别式非零。}
 
-按 \S 3 第 2 节，第一类完全可约性等价于断言扩张环 $\bR=\mR[\overline{\mathsf{P}}]$ 完全可约，也就是它的不可分分量都是同构于 $\overline{\mathsf{P}}$ 的域。按 \S 5 第 3 节，$\mR$ 的判别式理想、同时也是 $\bR$ 的判别式理想，不是零理想就是单位理想；按 \S 5 第 2 节，$\bR$ 的判别式理想是各分量关于这些分量自身所取判别式理想的乘积。各个判别式理想从第 2 节所考察者得到，只需每次把同构于 $\overline{\mathsf{P}}$ 的域 $P_i=\bP e_i$ 替换为 $\overline{\mathsf{P}}$ 本身。因此，若 $\bR$ 完全可约，则其判别式理想作为单位理想的乘积仍为单位理想；若 $\bR$ 不完全可约，则至少一个分量的判别式理想等于零理想，因而 $\bR$ 的判别式理想为零。定理得证。
+按 \S 3 第 2 节，第一类完全可约性等价于断言扩张环 $\bR=\mR[\overline{\mathsf{P}}]$ 完全可约，也就是它的不可分分量都是同构于 $\overline{\mathsf{P}}$ 的域。按 \S 5 第 3 节，$\mR$ 的判别式理想、同时也是 $\bR$ 的判别式理想，不是零理想就是单位理想；按 \S 5 第 2 节，$\bR$ 的判别式理想是各分量关于这些分量自身所取判别式理想的乘积。各个判别式理想从第 2 节所考察者得到，只需每次把同构于 $\overline{\mathsf{P}}$ 的域 $\overline{\mathsf{P}}_i=\overline{\mathsf{P}} e_i$ 替换为 $\overline{\mathsf{P}}$ 本身。因此，若 $\bR$ 完全可约，则其判别式理想作为单位理想的乘积仍为单位理想；若 $\bR$ 不完全可约，则至少一个分量的判别式理想等于零理想，因而 $\bR$ 的判别式理想为零。定理得证。
 
 \textbf{4. 在第一类完全可约情形中，由共轭元素表示迹、范数和判别式。} 设在第一类完全可约情形中，按 \S 3 第 3 节有
 \[
@@ -16739,7 +16739,7 @@ $\mA$ 的次数为 $mr$ 的每个分裂域，只要这样的域存在，都同�
  \quad \text{因此}\quad -1=\left(\frac{ap}{\Theta^{n-1}}\right)^2+
        \left(\frac{bp\beta}{\Theta^n}\right)^2
 \]
-定义；通过适当选择 $a,b,p,\beta$，可做到：1. 对每个 $n$，$f(x)$ 不可约；2. $P(\Theta)$ 除 $\mathrm{P}$ 外只有一个子域 $P(\Theta^2)$；3. $P(\Theta^2)$ 的共轭域中也有实域，因而它不能是分裂域。一个可能的 $a,b,p,\beta$ 选择例如为
+定义；通过适当选择 $a,b,p,\beta$，可做到：1. 对每个 $n$，$f(x)$ 不可约；2. $\mathrm{P}(\vartheta)$ 除 $\mathrm{P}$ 外只有一个子域 $\mathrm{P}(\vartheta^2)$；3. $\mathrm{P}(\vartheta^2)$ 的共轭域中也有实域，因而它不能是分裂域。一个可能的 $a,b,p,\beta$ 选择例如为
 \[
         f(x)=x^{2n}+(25\cdot9)4x^2+9\cdot64.
 \]
@@ -18313,9 +18313,9 @@ $\mo$ 在 $K$ 中的一个 $n$ 次表示，是一个同态
 
 \emph{证明.}
 \[
-        \ml_1=\sum_i c_{i1}K=\sum_i\sum_j c_{i1}\chi_j\Gamma.
+        \ml_1=\sum_i c_{i1}\mathsf{K}=\sum_i\sum_j c_{i1}\varkappa_j\Gamma.
 \]
-关于基 $(\ldots,c_{i1}\chi_j,\ldots)$，元素 $c_{ik}$ 由一个块矩阵表示：在第 $(i,k)$ 块中是单位矩阵 $E_t$，其余块是 $t$ 阶零矩阵 $0$。同样，$K$ 中的元素 $\alpha$ 由带有相应 $t$ 阶矩阵 $A$ 的块对角矩阵表示。因此
+关于基 $(\ldots,c_{i1}\varkappa_j,\ldots)$，元素 $c_{ik}$ 由一个块矩阵表示：在第 $(i,k)$ 块中是单位矩阵 $E_t$，其余块是 $t$ 阶零矩阵 $0$。同样，$K$ 中的元素 $\alpha$ 由带有相应 $t$ 阶矩阵 $A$ 的块对角矩阵表示。因此
 \[
         a=\sum c_{ik}\alpha_{ik}
 \]
@@ -18924,7 +18924,7 @@ he&&&0\\
 在多项式环 $\varOmega[u_1,\ldots,u_t]$ 中，令 $\mathfrak{m}$ 表示所有满足 $G(f)=0$（在 $x$ 中恒等）的多项式 $G(u)$ 所成的素理想。按假设，$\mathfrak{m}$ 不是零理想；取 $\mathfrak{m}$ 中一个次数最低的多项式 $G(u)\neq0$（因而也不是常数），由此特别推出 $G(u)$ 不可分解。于是像通常一样得到：
 \[
 \left(\frac{\partial G}{\partial u_1}\right)_f\cdot \frac{\partial f_1}{\partial x_k}+\cdots+
-\left(\frac{\partial G}{\partial u_t}\right)_f\cdot \frac{\partial f_t}{\partial x_k}=0
+\left(\partial G/\partial u_t\right)_f\partial f_t/\partial x_1=0
 \quad (k=1,\ldots,n),
 \]
 由此可知：或者函数矩阵的秩小于 $t$，或者所有 $(\partial G/\partial u_i)_f$ 都消失。但是，由于 $G(u)$ 已被假定为次数最低的多项式，后一种情况推出所有 $\partial G/\partial u_i$ 都消失。
@@ -19478,7 +19478,7 @@ A=(\alpha,Z)
 这里，\(K\) 的 \(\frakP_i\)-次数是 \(\mathsf{K}_{\mathfrak P_i}\) 关于 \(\Om_{\frakp}\) 的次数。也就是说，如果
 \[
 \frakp=\prod_i \frakP_i^{\,e_{\frakP_i}},
-        \qquad \N_{K/\Om}(\frakP_i)=\frakp^{\,f_{\frakP_i}},
+        \qquad \mathsf{N}_{\mathsf{K}\Omega}(\mathfrak P_i)=\mathfrak p^{f_{\mathfrak P_i}},
 \]
 是 \(\frakp\) 在 \(K\) 中的分解，那么
 \[
@@ -19994,7 +19994,7 @@ R. Brauer 正是在交换情形中的这种表示论，以及“无理”的因�
 \[
         N=M_A=y_1A+\ldots+y_nA.
 \]
-反过来，对于每个 \(P\)-模 \(M=y_1P+\ldots+y_nP\)，在模同构意义下唯一存在扩张模 \(M_{\mathsf{A}}\)。因为模 \(y_1A+\ldots+y_nA\) 含有一个同 \(M\) 同构的子模，可以把它与 \(M\) 等同起来。
+反过来，对于每个 \(P\)-模 \(M=y_1P+\ldots+y_nP\)，在模同构意义下唯一存在扩张模 \(M_{\mathsf{A}}\)。因为模 \(y_1\mathsf{A}+\ldots+y_n\mathsf{A}\) 含有一个同 \(M\) 同构的子模，可以把它与 \(M\) 等同起来。
 
 \paragraph{推论 a)。}
 若 \(M\) 中的元素 \(z_1,\ldots,z_s\) 在 \(P\) 上线性无关，则它们在 \(N=M_A\) 中也在 \(A\) 上线性无关（因为它们可以补成 \(M\) 的一个基，从而也补成 \(N\) 的一个基）。因此，\(M\) 中每个 \(P\)-模
@@ -20039,7 +20039,7 @@ R. Brauer 正是在交换情形中的这种表示论，以及“无理”的因�
         G(z_i)=x_i-\bigl(x_{l+1}G(\alpha_{i,l+1})
               +\ldots+x_nG(\alpha_{i,n})\bigr)
 \]
-对于每个来自 \(\frG\) 的 \(G\) 都是 \(L\) 的元素；于是，当 \(G\) 固定时，它可由这些 \(z\) 线性表示。因此，如同比较 \(x_1,\ldots,x_n\) 的系数所显示的，对每个来自 \(\frG\) 的 \(G\) 都有 \(G(z_i)=z_i\)。于是，按引理，这些 \(z\) 位于 \(M\) 中，而 \(L\) 成为 \(M\) 中 \(P\)-模
+对于每个来自 \(\frG\) 的 \(G\) 都是 \(L\) 的元素；于是，当 \(G\) 固定时，它可由这些 \(z\) 线性表示。因此，如同比较 \(x_1,\ldots,x_l\) 的系数所显示的，对每个来自 \(\frG\) 的 \(G\) 都有 \(G(z_i)=z_i\)。于是，按引理，这些 \(z\) 位于 \(M\) 中，而 \(L\) 成为 \(M\) 中 \(P\)-模
 \[
         T=z_1P+\ldots+z_\ell P
 \]
@@ -20063,7 +20063,7 @@ R. Brauer 正是在交换情形中的这种表示论，以及“无理”的因�
 \paragraph{扩张定理。}
 \(S_{\mathsf{A}}\) 中的每个双侧理想，都是 \(S\) 中某个理想的扩张理想；确切地说，是它同 \(S\) 的交的扩张。
 
-事实上，若所取的群 \(\frG\) 是 \(A\) 的内自同构群，则 \(P\) 作为 \(A\) 的中心成为全不变量域；同时，\(A\) 与 \(S\) 的元素两两可交换，说明 \(\frG\) 按 §3, 3. 扩张到 \(S_{\mathsf{A}}\) 上，使 \(S\) 成为全不变量范围。\(S_{\mathsf{A}}\) 中每个双侧理想 \(\mathfrak a\) 都是容许子群，因为 \(\alpha^{-1}\mathfrak a\alpha\subseteq\mathfrak a\)；所以按 §3, 3.，它是其交模 \(\mathfrak a\cap S\) 的扩张，而这个交模成为 \(S\) 中的理想。
+事实上，若所取的群 \(\frG\) 是 \(A\) 的内自同构群，则 \(P\) 作为 \(A\) 的中心成为全不变量域；同时，\(A\) 与 \(S\) 的元素两两可交换，说明 \(\frG\) 按 §3, 3. 扩张到 \(S_{\mathsf{A}}\) 上，使 \(S\) 成为全不变量范围。\(S_{\mathsf{A}}\) 中每个双侧理想 \(\mathfrak a\) 都是容许子群，因为 \(\alpha^{-1}\mathfrak a\alpha\leqq\mathfrak a\)；所以按 §3, 3.，它是其交模 \(\mathfrak a\cap S\) 的扩张，而这个交模成为 \(S\) 中的理想。
 
 附加说明：若 \(S\) 是交换的，则 \(S\) 成为 \(S_{\mathsf{A}}\) 的中心。因为 \(S\) 位于中心中，并且相对于由 \(\mathsf{A}\) 生成的内自同构，是全不变量范围。更一般地，\(S\) 的中心也成为 \(S_{\mathsf{A}}\) 的中心。
 
@@ -20353,7 +20353,7 @@ R. Brauer 正是在交换情形中的这种表示论，以及“无理”的因�
 \paragraph{前提。}
 设简单系统 \(Z\) 在 \(\mathsf{P}\) 上是有限可分扩张域；\(\Omega\) 表示一个在 \(\mathsf{P}\) 上有限或无限的分裂域；\(\mathsf{Z}'=\mathsf{Z}^{(1)}\) 是同 \(Z\) 同构的子域；\(\Gamma\) 是相应的伽罗瓦域。按 1. 因而有直和分解
 \[
-        Z_\Omega=r^{(1)}+\ldots+r^{(n)}
+        Z_\Omega=\mathfrak r^{(1)}+\ldots+\mathfrak r^{(n)}
         =e^{(1)}Z_\Omega+\ldots+e^{(n)}Z_\Omega
         =e^{(1)}\Omega+\ldots+e^{(n)}\Omega .
 \]
@@ -21455,7 +21455,7 @@ e&=e^{(1)}+\cdots+e^{(n)},\qquad
 \mathfrak K_{\mathsf{K}^{(i)}}
 &=\mathfrak A_{\mathsf{K}^{(i)}}+\mathfrak P_{\mathsf{K}^{(i)}}^{(i)}
 =\mathsf{K}^{(i)}e^{(i)}+\mathfrak P_{\mathsf{K}^{(i)}}^{(i)};
-&0&=[\mathfrak A_{K^{(i)}}^{(i)},\mathfrak P_{K^{(i)}}^{(i)}].\notag
+&0&=[\mathfrak A_{\mathsf{K}^{(i)}},\mathfrak P_{\mathsf{K}^{(i)}}^{(i)}].\notag
 \end{align}
 至此，该定理的各部分全都得证。还应指出，这是一个\emph{完全不变的结构定理}，因为其中出现的所有构造（$\mathfrak K_{\mathsf{K}}$、$\mathfrak K_\Gamma$、$\mathfrak P_{\mathsf{K}}$、$\mathfrak A_{\mathsf{K}}$）都不依赖于基来定义。\srcfn{18)}{这里也可以借助定义方程以及相应多项式的线性因式分解来表述，但这样的表述并非不变的。}
 
