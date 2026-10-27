@@ -7,18 +7,18 @@
 ### 基本正文——425页
 
 1. [阅读PDF](https://github.com/KokunoYumeto/emmy-noether-zh-hans/blob/main/editions/2026-10-24-r2/zh-Hans/reader-edition/01-noether-zh-Hans-base.pdf)
-2. [下载完整LaTeX正文](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r3/02-noether-zh-Hans-base.tex)
-3. [下载完整排版源文件](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r3/03-noether-zh-Hans-base-sources.zip)
+2. [下载完整LaTeX正文](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/02-noether-zh-Hans-base.tex)
+3. [下载完整排版源文件](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/03-noether-zh-Hans-base-sources.zip)
 
 ### 订正正文与编者注——430页
 
 1. [阅读PDF](https://github.com/KokunoYumeto/emmy-noether-zh-hans/blob/main/editions/2026-10-24-r2/zh-Hans/reader-edition/04-noether-zh-Hans-emendations.pdf)
-2. [下载完整LaTeX正文](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r3/05-noether-zh-Hans-emendations.tex)
-3. [下载完整排版源文件](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r3/06-noether-zh-Hans-emendations-sources.zip)
+2. [下载完整LaTeX正文](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/05-noether-zh-Hans-emendations.tex)
+3. [下载完整排版源文件](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/06-noether-zh-Hans-emendations-sources.zip)
 
 两种正文均包含上述范围，PDF书签可导航至全部43篇编号论文及后续部分。基本正文保留编者注所讨论的原刊读法；订正版另以编者注说明有关订正及依据。这些注释并非整部著作的穷尽式批判校本。
 
-每个直接下载的LaTeX文件均含对应版本的完整正文。各ZIP包含同一正文、所需的Noto字体文件、字体署名和许可证、排版说明及脚本；排版使用XeLaTeX，并需安装说明中列出的系统字体和TeX包。直接下载的LaTeX文件须与包内的`fonts`目录放在一起。[SHA-256文件清单](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r3/07-SHA256SUMS.txt)
+每个直接下载的LaTeX文件均含对应版本的完整正文。各ZIP包含同一正文、所需的Noto字体文件、字体署名和许可证、排版说明及脚本；排版使用XeLaTeX，并需安装说明中列出的系统字体和TeX包。直接下载的LaTeX文件须与包内的`fonts`目录放在一起。[SHA-256文件清单](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/07-SHA256SUMS.txt)
 
 ## 作者、翻译与出处
 
@@ -37,4 +37,4 @@ Emmy Noether的著作属于公有领域。出版者对AI制作的翻译、订正
 
 ## 中文译本与程序
 
-一个中文译本，提供简体正文和程序生成的繁体字形式；两种字形均持续维护。[方法、作者模型与日期、可直接浏览的代码](https://github.com/KokunoYumeto/emmy-noether-zh-hans/blob/main/methods/chinese-script-2026-10-24-r2/README.md)。完整源文件ZIP中的`code/`也包含转换函数、指定版本重建设置及两种字形的排版脚本。[单独下载代码](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r3/08-noether-chinese-script-code-2026-10-24-r2.zip)。
+一个中文译本，提供简体正文和程序生成的繁体字形式；两种字形均持续维护。[方法、作者模型与日期、可直接浏览的代码](https://github.com/KokunoYumeto/emmy-noether-zh-hans/blob/main/methods/chinese-script-2026-10-24-r2/README.md)。完整源文件ZIP中的`code/`也包含转换函数、指定版本重建设置及两种字形的排版脚本。[单独下载代码](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/08-noether-chinese-script-code-2026-10-24-r2.zip)。
