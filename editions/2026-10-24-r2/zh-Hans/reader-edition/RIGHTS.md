@@ -4,7 +4,7 @@
 
 中文正文由AI翻译。早期简体中文版的制作方为Manuscript Typesetting Project / OpenAI Codex；现存出处资料不足以确定其准确模型。本版由AI制作的订正与排版：OpenAI Codex——GPT-6 Astra，Ultra推理强度；Claude Opus 5.5（Anthropic），2026-10-26至2026-10-27（公式已与依Noether印刷页面读出的德文本文核对）。这不表示出版者亲自翻译，亦不表示经过独立学术审阅。
 
-本版继承[简体中文版v1.0.0（2026-08-14）](https://doi.org/10.5281/zenodo.21933035)的正文；其德文底本为ED0011/v047（2026-08-08）。其中第1篇至第19篇第6节的早期中文文本见[2026-06-12法文与简体中文汇编](https://doi.org/10.5281/zenodo.20836874)。后续历史记录包括[v1.0.2](https://doi.org/10.5281/zenodo.22172487)及[v1.0.3](https://doi.org/10.5281/zenodo.22177336)。[简体中文系列标识](https://doi.org/10.5281/zenodo.21933034)与[多语种汇编](https://doi.org/10.5281/zenodo.20412587)分别指向相应资料。这些历史标识不是当前GitHub版的新DOI。
+本版继承[简体中文版v1.0.0（2026-08-14）](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.0)的正文；其德文底本为ED0011/v047（2026-08-08）。其中第1篇至第19篇第6节的早期中文文本见2026-06-12法文与简体中文汇编。后续历史记录包括[v1.0.2](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.2)及[v1.0.3](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.3)。
 
 Emmy Noether的著作属于公有领域。出版者对AI制作的翻译、订正与排版享有的任何权利，均依[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans)贡献于公有领域。M. Deuring记录的讲义、H. Kapferer的论文以及署名共同作者的贡献保持其各自的法律地位。
 

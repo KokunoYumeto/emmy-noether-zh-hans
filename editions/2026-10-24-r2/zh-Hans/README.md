@@ -24,7 +24,7 @@
 
 原作者为Emmy Noether及各篇署名的共同作者；讲义由M. Deuring记录。中文正文由AI翻译。早期制作方为Manuscript Typesetting Project / OpenAI Codex；现存出处资料不足以确定其准确模型。R9中文汇编及繁体字转换程序由OpenAI Codex——GPT-5.6 Sol，Ultra推理强度于2026-08-12制作；转换采用opencc-python-reimplemented 0.1.7的s2t配置。2026-10-23—2026-10-24由AI制作的订正与排版：OpenAI Codex——GPT-6 Astra，Ultra推理强度；2026-10-26至2026-10-27：Claude Opus 5.5（Anthropic）（公式已与依Noether印刷页面读出的德文本文核对）。这不表示出版者亲自翻译，亦不表示经过独立学术审阅。
 
-本版继承[简体中文版v1.0.0（2026-08-14）](https://doi.org/10.5281/zenodo.21933035)的正文；其德文底本为ED0011/v047（2026-08-08）。早期中文文本见[2026-06-12汇编](https://doi.org/10.5281/zenodo.20836874)，后续历史记录包括[v1.0.2](https://doi.org/10.5281/zenodo.22172487)与[v1.0.3](https://doi.org/10.5281/zenodo.22177336)。[简体中文系列标识](https://doi.org/10.5281/zenodo.21933034)与[多语种汇编](https://doi.org/10.5281/zenodo.20412587)分别指向相应资料。这些历史标识不是当前GitHub版的新DOI。原刊信息、署名与文献引用见正文。
+本版继承[简体中文版v1.0.0（2026-08-14）](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.0)的正文；其德文底本为ED0011/v047（2026-08-08）。早期中文文本见2026-06-12汇编，后续历史记录包括[v1.0.2](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.2)与[v1.0.3](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.3)。原刊信息、署名与文献引用见正文。
 
 ## 权利
 
