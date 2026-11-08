@@ -28,9 +28,9 @@
 
 ## 权利
 
-原著及受保护的衍生贡献，其权利均归各自权利人所有。本版免费提供，仅供非商业、纯教育用途；出版者推定权利人不会反对。这是推定，并非已获证实的许可；免费可读本身并不授权衍生出版。
+Emmy Noether的著作属于公有领域。出版者对AI制作的翻译、订正与排版享有的任何权利，均依[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans)贡献于公有领域。M. Deuring记录的讲义、H. Kapferer的论文以及署名共同作者的贡献保持其各自的法律地位。本版以非营利的教育目的发布，出版者不主张其不享有的任何权利。
 
-权利人可通过[GitHub issue](https://github.com/KokunoYumeto/emmy-noether-zh-hans/issues/new)提出异议；出版者承诺依权利人的请求撤下相关材料。本版不作新的整体许可或公有领域奉献。早期真实权利声明仍在其实际授权范围内适用；所附Noto字体适用SIL Open Font License 1.1。
+权利人可通过[GitHub issue](https://github.com/KokunoYumeto/emmy-noether-zh-hans/issues/new)提出异议；出版者承诺依权利人的请求撤下相关材料。早期真实权利声明仍在其实际授权范围内适用；所附Noto字体适用SIL Open Font License 1.1。
 
 [作者、出处与权利](reader-edition/RIGHTS.md) · [早期权利声明](reader-edition/NOTICE_HISTORIQUE.md) · [历史版本](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases)
 

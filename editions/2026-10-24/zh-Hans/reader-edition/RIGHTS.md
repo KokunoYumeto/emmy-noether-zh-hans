@@ -6,9 +6,9 @@
 
 本版继承[简体中文版v1.0.0（2026-08-14）](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.0)的正文；其德文底本为ED0011/v047（2026-08-08）。其中第1篇至第19篇第6节的早期中文文本见2026-06-12法文与简体中文汇编。后续历史记录包括[v1.0.2](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.2)及[v1.0.3](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.3)。
 
-原著及受保护的衍生贡献，其权利均归各自权利人所有。本版免费提供，仅供非商业、纯教育用途；出版者推定权利人不会反对。这是推定，并非已获证实的许可；免费可读本身并不授权衍生出版。
+Emmy Noether的著作属于公有领域。出版者对AI制作的翻译、订正与排版享有的任何权利，均依[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans)贡献于公有领域。M. Deuring记录的讲义、H. Kapferer的论文以及署名共同作者的贡献保持其各自的法律地位。本版以非营利的教育目的发布，出版者不主张其不享有的任何权利。
 
-权利人可通过[GitHub issue](https://github.com/KokunoYumeto/emmy-noether-zh-hans/issues/new)提出异议；出版者承诺依权利人的请求撤下相关材料。本版不作新的整体许可或公有领域奉献。[早期权利声明](NOTICE_HISTORIQUE.md)按原文保留，其效力限于实际授权的权利与贡献。
+权利人可通过[GitHub issue](https://github.com/KokunoYumeto/emmy-noether-zh-hans/issues/new)提出异议；出版者承诺依权利人的请求撤下相关材料。[早期权利声明](NOTICE_HISTORIQUE.md)按原文保留，其效力限于实际授权的权利与贡献。
 
 所附Noto字体适用SIL Open Font License 1.1。各字体文件内的版权、设计者、商标与许可信息见[字体署名](fonts/ATTRIBUTION.md)，[所附许可证原文](fonts/OFL.txt)亦予保留。TeX软件和未随包分发的系统字体适用其各自条件。
 
