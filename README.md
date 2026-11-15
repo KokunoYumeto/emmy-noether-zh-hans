@@ -2,7 +2,7 @@
 
 本仓库是埃米·诺特（Emmy Noether，1882—1935）数学著作集的简体中文译本，收录第1—43篇论文、M. Deuring记录的1929/30年冬季学期《超复量代数》讲义、H. Kapferer的论文及其与E. Noether合写的补充，以及书目、短讯与书评目录和参与编著的书籍目录。内容涵盖不变量、理想、域、代数与表示论，采用面向中国大陆读者的简体中文，以PDF和可编辑的LaTeX发布。
 
-[**阅读基本正文PDF（426页）**](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/01-noether-zh-Hans-base.pdf) · [订正正文PDF（431页）](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/04-noether-zh-Hans-emendations.pdf) · [2026年10月27日版的全部文件](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-10-27-r4)
+[**阅读基本正文PDF（426页）**](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-11-15/01-noether-zh-Hans-base.pdf) · [订正正文PDF（431页）](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-11-15/04-noether-zh-Hans-emendations.pdf) · [2026年11月15日版的全部文件](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/noether-zh-Hans-2026-11-15)
 
 ## 制作方式
 
@@ -18,12 +18,12 @@
 
 | 正文 | PDF | LaTeX | 源文件 |
 |---|---|---|---|
-| 基本正文：保留原刊读法，并在编者注中讨论有关读法 | [PDF，426页](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/01-noether-zh-Hans-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/02-noether-zh-Hans-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/03-noether-zh-Hans-base-sources.zip) |
-| 订正正文：采用编者订正，每处订正均以编者注说明 | [PDF，431页](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/04-noether-zh-Hans-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/05-noether-zh-Hans-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/06-noether-zh-Hans-emendations-sources.zip) |
+| 基本正文：保留原刊读法，并在编者注中讨论有关读法 | [PDF，426页](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-11-15/01-noether-zh-Hans-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-11-15/02-noether-zh-Hans-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-11-15/03-noether-zh-Hans-base-sources.zip) |
+| 订正正文：采用编者订正，每处订正均以编者注说明 | [PDF，431页](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-11-15/04-noether-zh-Hans-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-11-15/05-noether-zh-Hans-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-11-15/06-noether-zh-Hans-emendations-sources.zip) |
 
-[SHA-256文件清单](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/07-SHA256SUMS.txt)。同样的文件也在[`editions/2026-10-24-r2/zh-Hans/reader-edition/`](editions/2026-10-24-r2/zh-Hans/reader-edition/)中。
+[SHA-256文件清单](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-11-15/07-SHA256SUMS.txt)。同样的文件也在[`editions/2026-10-24-r2/zh-Hans/reader-edition/`](editions/2026-10-24-r2/zh-Hans/reader-edition/)中。
 
-PDF书签可导航至全部43篇编号论文及后续部分。每个LaTeX文件均含对应版本的完整正文。各ZIP包含同一正文、所需的Noto字体文件、字体署名和许可证、排版说明及脚本；排版使用XeLaTeX，并需安装说明中列出的系统字体和TeX包。直接下载的LaTeX文件须与包内的`fonts`目录放在一起。繁体字形式版由同一转换程序（[08-noether-chinese-script-code-2026-10-24-r2.zip](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-10-27-r4/08-noether-chinese-script-code-2026-10-24-r2.zip)）从简体文本生成。
+PDF书签可导航至全部43篇编号论文及后续部分。每个LaTeX文件均含对应版本的完整正文。各ZIP包含同一正文、所需的Noto字体文件、字体署名和许可证、排版说明及脚本；排版使用XeLaTeX，并需安装说明中列出的系统字体和TeX包。直接下载的LaTeX文件须与包内的`fonts`目录放在一起。繁体字形式版由同一转换程序（[08-noether-chinese-script-code-2026-10-24-r2.zip](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/download/noether-zh-Hans-2026-11-15/08-noether-chinese-script-code-2026-10-24-r2.zip)）从简体文本生成。
 
 2026年8月的简体中文版v1.0.0至v1.0.3可在[GitHub发布页](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases)下载。德文本文、繁体字形式版、其他语种版本以及各版之间的已知差异见[中央页面](https://kokunoyumeto.github.io/emmy-noether/)。
 
