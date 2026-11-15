@@ -6,7 +6,7 @@
 
 本版继承[简体中文版v1.0.0（2026-08-14）](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.0)的正文；其德文底本为ED0011/v047（2026-08-08）。其中第1篇至第19篇第6节的早期中文文本见2026-06-12法文与简体中文汇编。后续历史记录包括[v1.0.2](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.2)及[v1.0.3](https://github.com/KokunoYumeto/emmy-noether-zh-hans/releases/tag/v1.0.3)。
 
-Emmy Noether的著作属于公有领域。出版者对AI制作的翻译、订正与排版享有的任何权利，均依[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans)贡献于公有领域。M. Deuring记录的讲义、H. Kapferer的论文以及署名共同作者的贡献保持其各自的法律地位。
+埃米·诺特于1935年去世，因此她的著作在欧盟以及保护期于作者去世后70年届满的所有地方均属公有领域。在美国，她于1931年或以后首次发表的论文自发表起95年内仍受保护（1931年的论文于2027年1月1日起不再受保护）。在发行者对AI完成的翻译、校正与排版享有权利的范围内，这些权利依[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.zh-hans)献入公有领域。M. Deuring记录的讲义、H. Kapferer的论文以及所列合著者的贡献不在本声明范围内；其权利仍归其作者或继承人。
 
 [早期权利声明](NOTICE_HISTORIQUE.md)按原文保留，其效力限于实际授权的权利与贡献。
 
