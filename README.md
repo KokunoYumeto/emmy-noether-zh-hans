@@ -18,7 +18,7 @@ translation. What was done in each round, the measured figures and what is still
 
 ## 制作方式
 
-中文正文由AI翻译，译者为OpenAI Codex模型（未记录具体是哪个模型）。本版正文继承2026年8月14日的简体中文版v1.0.0，其德文底本为AI依原刊转录的德文文本ED0011/v047（2026-08-08）。R9中文汇编及繁体字转换程序由OpenAI Codex——GPT-5.6 Sol（Ultra推理强度）于2026-08-12制作，转换采用opencc-python-reimplemented 0.1.7的s2t配置。本版的订正与排版由AI制作：2026-10-23至2026-10-24为OpenAI Codex——GPT-6 Astra（Ultra推理强度）；2026-10-26至2026-10-27为Claude Opus 5.5（Anthropic），并将公式与依Noether印刷页面读出的德文本文核对一致。
+中文正文由AI翻译，译者为OpenAI Codex模型（未记录具体是哪个模型）。本版正文继承2026年8月14日的简体中文版v1.0.0，其德文底本为AI依原刊转录的德文文本ED0011/v047（2026-08-08）。R9中文汇编及繁体字转换程序由OpenAI Codex——GPT-5.6 Sol（Ultra推理强度）于2026-08-12制作，转换采用opencc-python-reimplemented 0.1.7的s2t配置。本版的订正与排版由AI制作：2026-10-23至2026-10-24为OpenAI Codex——GPT-6 Astra（Ultra推理强度）；2026-10-26至2026-10-27为Claude Opus 5.5（Anthropic，max推理强度），并将公式与依Noether印刷页面读出的德文本文核对一致。
 
 ## 现状
 
